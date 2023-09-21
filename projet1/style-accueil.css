@@ -1,0 +1,30 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-bar a {
+  margin-left: 2rem;
+}
