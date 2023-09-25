@@ -32,6 +32,12 @@ body {
   min-height: 100vh;
 }
 
+div {
+  background-color: red;
+  margin: 204px 68px 58px 68px;
+  border: 5px solid black;
+}
+
 /* polaroids */
 #polaroids ul {
   display: flex;
@@ -40,6 +46,10 @@ body {
   align-items: center;
   /*   border: 1px solid red; */
   flex-wrap: wrap;
+  /*   min-width: 4; */
+  background-image: url(assets/background.jpg);
+  background-size: contain;
+  margin: 229px 98px 80px 98px;
 }
 
 #polaroids li {
