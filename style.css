@@ -13,19 +13,40 @@
   top: 0;
   left: 0;
   width: 100%;
-  padding: 2rem; */
+  padding: 2rem; 
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;*/
 }
 
 nav {
+  
   display: flex;
+  justify-content: flex-end;
+  
+  
+
+  
 }
 
-.nav-bar a {
-  margin-left: 2rem;
+.nav-bar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ float: inline-end;
 }
+
+a{
+padding: 1.5em;
+text-align: center;
+width: 258px;
+border-radius: 1em 1em 0em 0em;
+background: rgba(181.89, 62.90, 62.90, 0.95);
+border: 1px solid rgb(255, 255, 255);
+text-align: center;
+}
+
+
 
 /* body */
 body {
