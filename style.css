@@ -6,9 +6,10 @@
   --color-border: white;
   --color-texte: black;
   --border-polaroid: black;
+  
+  --font-family: FilsonPro-Medium;
 }
 
-/* variable font*/
 
 
 
@@ -23,19 +24,19 @@
 }
 
 /* header */
-.header {
-  /*   position: fixed;
+/*.header {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 2rem; 
   display: flex;
   justify-content: space-between;
-  align-items: center;*/
-}
+  align-items: center;
+}*/
 
 
-/*nav barra*/
+/*nav bar*/
 
 .logo {
   margin: 40px 68px 20px
@@ -59,23 +60,26 @@ nav {
 a {
   padding: 1.5em;
   text-align: center;
-  width: 200px;
-  height: 75px;
+  width: 20%;
+  height: 10%;
   border-radius: 1em 1em 0em 0em;
   background: var(--color-button);
   border-left: 2px solid var(--color-border);
   border-top: 2px solid var(--color-border);
   border-right: 2px solid var(--color-border);
   text-align: center;
-  font-family: FilsonPro-Medium;
+  justify-content: center;
+  font-family: var(--font-family);
   color: rgb(255, 255, 255);
-  font-size: 1.5em;
+  font-size: 2vw;
 }
+
 
 .Crew-bleu {
   /*box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);*/
   background-color: #DD7271;
   /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; */
+  border-bottom: 3px solid #DD7271;
 }
 
 .Crew-data {
@@ -178,6 +182,17 @@ ul li:nth-child(8) {
   max-height: 100%;
 }
 
+.polaroidBack {
+  background-color: var(--color-polaroid);
+  padding: 6%;
+  border: 2px solid grey;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  width:100%;
+  max-height: 100%;
+}
+
+
 h2 {
   padding-top: 7%;
   padding-bottom: 3%;
@@ -200,6 +215,7 @@ h2 {
 }
 
 
+
 /* Annimation des polaroides*/
 
 .polaroid:hover {
@@ -216,4 +232,18 @@ h2 {
   100% {
     transform: rotate(-5deg);
   }
+
+/* photo verso citation*/
+.polaroidBack{
+  display: block;
+
+}
+.verso{
+width: 30px;
+height: 30px;
+}
+
+.nomVerso{
+  font-family: var(--font-family);
+  
 }
