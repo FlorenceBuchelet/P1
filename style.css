@@ -40,6 +40,7 @@ nav {
 
   display: flex;
   justify-content: flex-end;
+  margin: -2px 68px;
 
 
 
@@ -58,17 +59,22 @@ a {
   text-align: center;
   width: 258px;
   border-radius: 1em 1em 0em 0em;
+
   background: var(--color-button);
-  border: 1px solid var(--color-border);
+  border: 2px solid var(--color-border);
   text-align: center;
+
 font-family: FilsonPro-Medium; 
 color: rgb(255, 255, 255);
 font-size: 20px;
-
 }
-.CrewBlue{
+
+.Crew-bleu {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
 background-color: var(--color-fond);
 }
+
+
 
 
 
@@ -85,7 +91,8 @@ body {
   margin: 0px 68px 58px 68px;
   border: 2px solid var(--color-border);
   border-radius: 20px 0px 20px 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
 }
 
 
@@ -111,7 +118,7 @@ body {
   padding: 0px 10px 10px 10px;
 }
 
-.polaroid {
+.card {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
@@ -124,14 +131,14 @@ h1 {
 
 }
 
-.polaroid h2,
-.polaroid img {
+.card h2,
+.card img {
   text-align: center;
   margin: 0 auto;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.polaroid h2,
+.card h2,
 .photo {
   padding: 20px;
   background-color: var(--color-polaroide);
@@ -143,7 +150,7 @@ h1 {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.polaroid h2 {
+.card h2 {
   border: 3px solid black;
   border-top: 0px;
   /* ici la MAUVAISE solution pour élargir le h2 */
