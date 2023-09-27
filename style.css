@@ -2,10 +2,10 @@
 :root {
   --color-fond: rgba(219, 108, 108, 0.95);
   --color-button: rgba(181.89, 62.90, 62.90, 0.95);
-  --color-polaroide: #FFF9F4;
+  --color-polaroid: #FFF9F4;
   --color-border: white;
   --color-texte: black;
-  --border-polaroide: black;
+  --border-polaroid: black;
 
 }
 
@@ -58,7 +58,7 @@ a {
   background: var(--color-button);
   border: 1px solid var(--color-border);
   text-align: center;
-font-family: FilsonPro-Black;
+  font-family: FilsonPro-Black;
 }
 
 
@@ -79,68 +79,70 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+h1 {
+  text-align: center;
+  padding-top: 1%;
+  color: var(--color-polaroid);
+}
 
 /* polaroids */
 
-#polaroids ul {
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  /*   border: 1px solid red; */
   flex-wrap: wrap;
-  /*   min-width: 4; */
   background-image: url(assets/background.jpg);
   background-size: contain;
   margin: 10px 30px 22px 30px;
   border-radius: 20px;
   border: 1px solid var(--color-border);
   padding-top: 3vh;
-}
-
-#polaroids li {
-  padding: 0px 10px 10px 10px;
+  column-gap: 5%;
 }
 
 .card {
+  /*   border: 3px solid red; */
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  /*   border: 1px solid black; */
-
-}
-
-h1 {
   text-align: center;
-
+  max-width: 300px;
+  max-height: auto;
+  overflow: hidden;
 }
 
 .card h2,
 .card img {
-  text-align: center;
   margin: 0 auto;
   font-family: 'Courier New', Courier, monospace;
 }
 
-.card h2,
-.photo {
-  padding: 20px;
-  background-color: var(--color-polaroide);
-}
-
-.photo {
-  border: 3px solid black;
-  border-bottom: 0px;
+.polaroid {
+  background-color: var(--color-polaroid);
+  padding: 6%;
+  border: 2px solid grey;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
 }
 
-.card h2 {
-  border: 3px solid black;
-  border-top: 0px;
-  /* ici la MAUVAISE solution pour élargir le h2 */
-  padding-left: 28%;
-  padding-right: 28%;
+h2 {
+  padding-top: 7%;
+  padding-bottom: 3%;
 }
+
+.photo {
+  border: 1px solid lightgrey;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+
 
 .deco {
   padding: 20px;
