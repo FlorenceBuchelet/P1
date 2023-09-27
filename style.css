@@ -127,3 +127,9 @@ h1 {
 .deco {
   padding: 20px;
 }
+
+.polaroid:active {
+  transform-style: preserve-3d;
+  transition: transform 1.5s;
+  transform: rotateY(180deg);
+}
