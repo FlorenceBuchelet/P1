@@ -7,7 +7,9 @@
   --color-texte: black;
   --border-polaroid: black;
   
-  --font-family: FilsonPro-Medium;
+  --font-family: FilsonPro-Medium, Arial, Helvetica, sans-serif;
+  --font-family-pola: Kite One, Helvetica, sans-serif;
+
 }
 
 
@@ -21,6 +23,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: var(--font-family);
 }
 
 /* header */
@@ -169,7 +172,7 @@ ul li:nth-child(8) {
 .card h2,
 .card img {
   margin: 0 auto;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-family-pola)
 }
 
 .polaroid {
