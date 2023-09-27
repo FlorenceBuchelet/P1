@@ -1,3 +1,16 @@
+/* Variable couleur */
+:root {
+  --color-fond: rgba(219, 108, 108, 0.95);
+  --color-button: rgba(181.89, 62.90, 62.90, 0.95);
+  --color-polaroide: #FFF9F4;
+  --color-border: white;
+  --color-texte: black;
+  --border-polaroide: black;
+
+}
+
+
+
 /* document complet */
 * {
   list-style: none;
@@ -41,9 +54,11 @@ a {
   text-align: center;
   width: 258px;
   border-radius: 1em 1em 0em 0em;
-  background: rgba(181.89, 62.90, 62.90, 0.95);
-  border: 1px solid rgb(255, 255, 255);
+
+  background: var(--color-button);
+  border: 1px solid var(--color-border);
   text-align: center;
+font-family: FilsonPro-Black;
 }
 
 
@@ -55,15 +70,18 @@ body {
   background-size: cover;
 }
 
-div {
-  background-color: rgba(219, 108, 108, 0.95);
+
+#polaroids {
+  background-color: var(--color-fond);
   margin: 0px 68px 58px 68px;
-  border: 2px solid white;
+  border: 2px solid var(--color-border);
   border-radius: 20px 0px 20px 20px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
+
 /* polaroids */
+
 #polaroids ul {
   display: flex;
   flex-direction: row;
@@ -76,7 +94,7 @@ div {
   background-size: contain;
   margin: 10px 30px 22px 30px;
   border-radius: 20px;
-  border: 1px solid #FFF;
+  border: 1px solid var(--color-border);
   padding-top: 3vh;
 }
 
@@ -107,7 +125,7 @@ h1 {
 .card h2,
 .photo {
   padding: 20px;
-  background-color: white;
+  background-color: var(--color-polaroide);
 }
 
 .photo {
