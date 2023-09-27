@@ -57,6 +57,8 @@ a {
   background: var(--color-button);
   border: 1px solid var(--color-border);
   text-align: center;
+font-family: FilsonPro-Black;
+
 }
 
 
