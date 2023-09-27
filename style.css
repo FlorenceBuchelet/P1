@@ -12,8 +12,6 @@
 
 
 
-}
-
 
 /* document complet */
 * {
@@ -48,11 +46,7 @@ nav {
 
   display: flex;
   justify-content: flex-end;
-  margin: -2px 68px;
-
-
-
-
+  margin: -2px 5%;
 }
 
 .nav-bar {
@@ -68,28 +62,20 @@ a {
   width: 200px;
   height: 75px;
   border-radius: 1em 1em 0em 0em;
-
   background: var(--color-button);
   border-left: 2px solid var(--color-border);
   border-top: 2px solid var(--color-border);
   border-right: 2px solid var(--color-border);
-
   text-align: center;
-
   font-family: FilsonPro-Medium;
   color: rgb(255, 255, 255);
-  font-size: 20px;
-
-
+  font-size: 1.5em;
 }
 
 .Crew-bleu {
   /*box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);*/
   background-color: #DD7271;
-
   /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; */
-
-
 }
 
 .Crew-data {
@@ -115,7 +101,7 @@ body {
 
 #polaroids {
   background-color: var(--color-fond);
-  margin: 0px 68px 58px 68px;
+  margin: 0% 5% 4% 5%;
   border: 2px solid var(--color-border);
   border-radius: 20px 0px 20px 20px;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
@@ -127,6 +113,7 @@ h1 {
   text-align: center;
   padding-top: 1%;
   color: var(--color-polaroid);
+  font-size: 2em;
 }
 
 /* polaroids */
@@ -139,11 +126,12 @@ ul {
   flex-wrap: wrap;
   background-image: url(assets/background.jpg);
   background-size: contain;
-  margin: 10px 30px 22px 30px;
+  margin: 1% 3% 2% 3%;
   border-radius: 20px;
   border: 1px solid var(--color-border);
   padding-top: 3vh;
-  column-gap: 5%;
+  column-gap: 3%;
+  padding: 4vh;
 }
 
 .card {
@@ -152,10 +140,25 @@ ul {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   text-align: center;
-  max-width: 300px;
+  max-width: 316px;
   max-height: auto;
   overflow: hidden;
 }
+
+ul li:first-child,
+ul li:nth-child(3),
+ul li:nth-child(5),
+ul li:nth-child(7) {
+  transform: rotate(2deg);
+}
+
+ul li:nth-child(2),
+ul li:nth-child(4),
+ul li:nth-child(6),
+ul li:nth-child(8) {
+  transform: rotate(-2deg);
+}
+
 
 .card h2,
 .card img {
@@ -176,6 +179,7 @@ ul {
 h2 {
   padding-top: 7%;
   padding-bottom: 3%;
+  font-size: 1.5em;
 }
 
 .photo {
@@ -188,6 +192,7 @@ h2 {
 
 
 
+
 .deco {
-  padding: 20px;
+  padding: 6%;
 }
