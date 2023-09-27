@@ -36,6 +36,7 @@ nav {
 
   display: flex;
   justify-content: flex-end;
+  margin: -2px 68px;
 
 
 
@@ -56,10 +57,19 @@ a {
   border-radius: 1em 1em 0em 0em;
 
   background: var(--color-button);
-  border: 1px solid var(--color-border);
+  border: 2px solid var(--color-border);
   text-align: center;
-font-family: FilsonPro-Black;
+
+  font-family: FilsonPro-Black;
+
 }
+
+.Crew-bleu {
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25)
+
+}
+
+
 
 
 
@@ -76,7 +86,8 @@ body {
   margin: 0px 68px 58px 68px;
   border: 2px solid var(--color-border);
   border-radius: 20px 0px 20px 20px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  position: absolute;
 }
 
 
