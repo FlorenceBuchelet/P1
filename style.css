@@ -6,9 +6,9 @@
   --color-border: white;
   --color-texte: black;
   --border-polaroid: black;
+}
 
-
-  /* variable font*/
+/* variable font*/
 
 
 
@@ -142,7 +142,7 @@ ul {
   text-align: center;
   max-width: 316px;
   max-height: auto;
-  overflow: hidden;
+
 }
 
 ul li:first-child,
@@ -151,6 +151,8 @@ ul li:nth-child(5),
 ul li:nth-child(7) {
   transform: rotate(2deg);
 }
+
+
 
 ul li:nth-child(2),
 ul li:nth-child(4),
@@ -195,4 +197,23 @@ h2 {
 
 .deco {
   padding: 6%;
+}
+
+
+/* Annimation des polaroides*/
+
+.polaroid:hover {
+  animation: animpola ease-in-out 0.2s infinite alternate;
+}
+
+
+@keyframes animpola {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
 }
