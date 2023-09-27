@@ -68,7 +68,7 @@ a {
   border-right: 2px solid var(--color-border);
   text-align: center;
   justify-content: center;
-  font-family: FilsonPro-Medium;
+  font-family: var(--font-family);
   color: rgb(255, 255, 255);
   font-size: 2vw;
 }
@@ -208,4 +208,19 @@ h2 {
 
 .deco {
   padding: 6%;
+}
+/* photo verso citation*/
+.polaroidBack{
+  display: block;
+
+}
+.verso{
+width: 30px;
+height: 30px;
+}
+
+.nomVerso{
+  font-family: var(--font-family);
+  
+  
 }
