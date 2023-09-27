@@ -6,12 +6,12 @@
   --color-border: white;
   --color-texte: black;
   --border-polaroid: black;
-
+  --font-family: FilsonPro-Medium;
+}
 
   /* variable font*/
 
 }
-
 
 /* document complet */
 * {
@@ -23,16 +23,16 @@
 }
 
 /* header */
-.header {
-  /*   position: fixed;
+/*.header {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 2rem; 
   display: flex;
   justify-content: space-between;
-  align-items: center;*/
-}
+  align-items: center;
+}*/
 
 
 /*nav bar*/
@@ -72,6 +72,7 @@ a {
   color: rgb(255, 255, 255);
   font-size: 2vw;
 }
+
 
 .Crew-bleu {
   /*box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);*/
@@ -169,6 +170,16 @@ ul li:nth-child(8) {
 }
 
 .polaroid {
+  background-color: var(--color-polaroid);
+  padding: 6%;
+  border: 2px solid grey;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+}
+
+.polaroidBack {
   background-color: var(--color-polaroid);
   padding: 6%;
   border: 2px solid grey;
