@@ -54,7 +54,7 @@ a {
   width: auto;
   height: 10%;
   border-radius: 1em 1em 0em 0em;
-  background: var(--color-button);
+ /* background: var(--color-button);*/
   border-left: 2px solid var(--color-border);
   border-top: 2px solid var(--color-border);
   border-right: 2px solid var(--color-border);
@@ -64,6 +64,10 @@ a {
   color: rgb(255, 255, 255);
   font-size: clamp(19px, 2vw, 28px);
 }
+/*color background red button*/
+.Crew-data{background: var(--color-button);}
+.Crew-Yellow{background: var(--color-button);}
+
 
 
 .Crew-bleu {
@@ -268,19 +272,27 @@ h2 {
     transform: rotate(-5deg);
   }
 
-
+}
 
   /* photo verso citation*/
-  /*
-.polaroidBack{
+  
+  .polaroidBack{
+    display: block;
+
+}
+/*les logo git et link*/
+.verso{
+  width: 30px;
+  height: 30px;
   display: block;
 
-}
-.verso{
-width: 30px;
-height: 30px;
-}
 
-.nomVerso{
-  font-family: var(--font-family);
-  */
+
+
+  }
+  
+  
+
+
+    
+    
