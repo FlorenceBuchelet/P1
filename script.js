@@ -74,3 +74,8 @@ function updateCard(studentName, studentPicture) {
 for (let i = 0; i < students.length; i++) {
     updateCard(students[i].name, students[i].picture);
 } */
+
+
+
+/*animation*/
+
