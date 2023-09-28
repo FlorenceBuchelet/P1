@@ -32,7 +32,7 @@ picture: URL("assets/Thomas.jpeg")
 };
 {
     name: "Frédéric Ticon",
-        quote: "Salut c'est Fred",
+        quote: "Qui part à fond finit comme un con",
             linkedin: "http://www.linkedin.com/",
                 github: "https://github.com/";
     picture: URL("assets/Fred.jpeg")

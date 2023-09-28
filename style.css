@@ -6,11 +6,14 @@
   --color-border: white;
   --color-texte: black;
   --border-polaroid: black;
-
-
-  /* variable font*/
+  
+  --font-family: FilsonPro-Medium, Arial, Helvetica, sans-serif;
+  --font-family-pola: Kite One, Helvetica, sans-serif;
 
 }
+
+
+
 
 
 /* document complet */
@@ -20,19 +23,20 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: var(--font-family);
 }
 
 /* header */
-.header {
-  /*   position: fixed;
+/*.header {
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 2rem; 
   display: flex;
   justify-content: space-between;
-  align-items: center;*/
-}
+  align-items: center;
+}*/
 
 
 /*nav bar*/
@@ -68,10 +72,11 @@ a {
   border-right: 2px solid var(--color-border);
   text-align: center;
   justify-content: center;
-  font-family: FilsonPro-Medium;
+  font-family: var(--font-family);
   color: rgb(255, 255, 255);
   font-size: clamp(19px, 2vw, 28px);
 }
+
 
 .Crew-bleu {
   /*box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);*/
@@ -155,6 +160,8 @@ ul li:nth-child(7) {
   transform: rotate(2deg);
 }
 
+
+
 ul li:nth-child(2),
 ul li:nth-child(4),
 ul li:nth-child(6),
@@ -165,7 +172,7 @@ ul li:nth-child(8) {
 
 .frontPolaroid {
   margin: 0 auto;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: var(--font-family-pola)
 }
 
 .polaroid {
@@ -177,6 +184,17 @@ ul li:nth-child(8) {
   width: 100%;
   max-height: 100%;
 }
+
+.polaroidBack {
+  background-color: var(--color-polaroid);
+  padding: 6%;
+  border: 2px solid grey;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  width:100%;
+  max-height: 100%;
+}
+
 
 h2 {
   padding-top: 7%;
@@ -240,3 +258,40 @@ h2 {
   color: black;
   transform: rotateY(180deg);
 }
+
+
+
+/* Annimation des polaroids*/
+/*
+.polaroid:hover {
+  animation: animpola ease-in-out 0.2s infinite alternate;
+}
+
+
+@keyframes animpola {
+
+  0% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(-5deg);
+  }
+  */
+
+
+/* photo verso citation*/
+/*
+.polaroidBack{
+  display: block;
+
+}
+.verso{
+width: 30px;
+height: 30px;
+}
+
+.nomVerso{
+  font-family: var(--font-family);
+  */
+
