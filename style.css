@@ -276,17 +276,18 @@ h2 {
   /* photo verso citation*/
   
   .polaroidBack{
-    display: block;
+    
 
 }
 /*les logo git et link*/
 .verso{
-  width: 30px;
-  height: 30px;
-  display: block;
-
-
-
+  width: 20%;
+  height: 20%;
+  }
+  p{
+    margin-top: 8%;
+    margin-bottom: 10%;
+    
 
   }
   
