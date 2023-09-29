@@ -1,14 +1,14 @@
 
-
+/* 
 // tableaux données élèves
-const students [
+const students = [
     {
         name: "Thomas Nigon",
         quote: "If it bleeds, we can kill it.",
         linkedin: "https://www.linkedin.com/in/thomas-nigon/",
         github: "https://github.com/Thomas-Nigon";
-picture: URL("assets/Thomas.jpeg")
-};
+        picture: URL("assets/Thomas.jpeg")
+    };
 {
     name: "Hélène Rampelberg",
         quote: "Salut c'est Hélène",
@@ -59,7 +59,7 @@ picture: URL("assets/Thomas.jpeg")
     picture: URL("assets/Florence.jpeg")
 };
 
-]
+] */
 
 
 /* 
@@ -77,5 +77,14 @@ for (let i = 0; i < students.length; i++) {
 
 
 
-/*animation*/
+/*animation on click*/
+
+
+const flipOnClick = document.querySelectorAll('.polaroid');
+
+flipOnClick.forEach(function (flip) {
+    flip.addEventListener('click', function () {
+        flip.classList.add("flipping");
+    });
+});
 

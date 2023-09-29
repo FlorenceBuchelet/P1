@@ -30,7 +30,7 @@
 /*nav bar*/
 
 .logo {
-  margin: 40px 68px 20px
+  margin: 3% 0 0 3%;
 }
 
 
@@ -49,7 +49,7 @@ nav {
 }
 
 a {
-  padding: 1.5em;
+  padding: 3%;
   text-align: center;
   width: auto;
   height: 10%;
@@ -185,7 +185,7 @@ ul li:nth-child(8) {
 
 h2 {
   padding-top: 7%;
-  padding-bottom: 3%;
+  padding-bottom: 7%;
   /*   font-size: 1.5em; */
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -199,7 +199,7 @@ h2 {
   object-fit: cover;
   width: 100%;
   max-height: 100%;
-
+  margin-bottom: -2%;
 }
 
 .deco {
@@ -213,9 +213,8 @@ h2 {
 
 .polaroid {
   background-color: transparent;
-  width: 350px;
   height: 400px;
-  perspective: 1000px;
+  /*   perspective: 1000px; */
 }
 
 .innerPolaroid {
@@ -228,7 +227,7 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.polaroid:hover .innerPolaroid {
+.flipping:hover .innerPolaroid {
   transform: rotateY(180deg);
 }
 
