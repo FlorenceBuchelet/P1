@@ -257,6 +257,76 @@ h2 {
   animation: animpola ease-in-out 0.1s 8 alternate;
 }
 
+/* farid menu-burger */
+.menu-burger {
+  display: none;
+  position: absolute;
+  top: 55px;
+  right: 50px;
+  width: 35px;
+}
+
+a.Crew-bleu, a.Crew-Yellow, a.Crew-data.mobile{
+  margin-right: 0%;
+}
+
+@media screen and (max-width: 800px) {
+  /* a.Crew-bleu a.Crew-Yellow a.Crew-data {
+    position: absolute;
+    display: flex;
+    justify-content: left;
+  } */
+
+  .menu-burger {
+    display: block;
+    position: absolute;
+  }
+  /* .logo {
+    height: 65px;
+  } */
+  /* .navbar a {
+    display: flex;
+    top: 0;
+    left: 0;
+  } */
+  /* .navbar.mobile {
+    left: 0;  
+    margin-left: -100%;
+    
+  } */
+  /* .navbar {
+    margin-left: -400%;
+    transition: all 0.5s ease;
+  } */
+  .nav-bar {
+    position: absolute;
+    
+
+  }
+
+
+
+  a.Crew-bleu, a.Crew-Yellow, a.Crew-data {
+    display: flex;
+    background-color: red;
+  
+    
+  }
+
+
+  .mobile {
+  margin-right: 0;
+
+}
+ a.Crew-bleu, a.Crew-Yellow, a.Crew-data.mobile{
+ margin-right: -50%;
+    transition: all 0.9s ease;
+
+}
+} 
+
+
+
 
 @keyframes animpola {
 
@@ -268,7 +338,7 @@ h2 {
     transform: rotate(-5deg);
   }
 
-
+}
 
   /* photo verso citation*/
   /*
@@ -281,6 +351,5 @@ width: 30px;
 height: 30px;
 }
 
-.nomVerso{
-  font-family: var(--font-family);
-  */
+/*.nomVerso{
+  font-family: var(--font-family);/*

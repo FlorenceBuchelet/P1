@@ -61,6 +61,13 @@ picture: URL("assets/Thomas.jpeg")
 
 ]
 
+// const menuBurger = document.querySelector(".menu-burger")
+// const navbar = document.querySelector(".nav-bar")
+
+// menuBurger.addEventListener('click',()=>{
+//     navbar.classList.toggle('mobile')
+// })
+
 
 /* 
 //tentative de génération auto des cards

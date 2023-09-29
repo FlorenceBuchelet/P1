@@ -13,12 +13,14 @@
     <img class="logo" src="assets/wild-logo.png" alt="logo wild code school" />
 
     <nav class="navbar">
-
-
+      
       <a class="Crew-data" href="#">Crew Data</a>
       <a class="Crew-Yellow" href="#">Crew Yellow</a>
       <a class="Crew-bleu" href="#">Crew Blue</a>
-
+      
+      <img class="menu-burger" src="assets/burger-menu_10613684.png" alt="menu">
+    
+    </nav>
   </header>
   <section id="polaroids">
     <h1>Promotion Web Dévelopeur septembre 2023</h1>
@@ -167,6 +169,15 @@
       </li>
     </ul>
   </section>
+  <script>
+
+const menuBurger = document.querySelector(".menu-burger")
+const navbar = document.querySelector(".navbar")
+
+menuBurger.addEventListener('click',()=>{
+    navbar.classList.toggle('mobile');
+})
+  </script>
   <script type="text/javascript" src="script.js"></script>
 </body>
 
