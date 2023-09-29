@@ -48,26 +48,53 @@ nav {
   justify-content: center;
   align-items: center;
   float: inline-end;
+
 }
 
-a {
-  padding: 3%;
+[class^="Crew"] {
+  padding: 1em 0em;
   text-align: center;
-  width: auto;
-  height: 10%;
+  width: 15rem;
+  height: 4rem;
   border-radius: 1em 1em 0em 0em;
-  /* background: var(--color-button);*/
+
   border-left: 2px solid var(--color-border);
   border-top: 2px solid var(--color-border);
   border-right: 2px solid var(--color-border);
   text-align: center;
   justify-content: center;
-  font-family: var(--font-family);
-  color: rgb(255, 255, 255);
-  font-size: clamp(19px, 2vw, 28px);
+  align-items: center;
+  display: flex;
+
 }
 
+a {
+
+  position: absolute;
+
+
+  font-family: var(--font-family);
+  color: rgb(255, 255, 255);
+  font-size: clamp(19px, 1vw, 28px);
+}
+
+.scotch {
+  width: 85%;
+
+  display: block;
+
+}
+
+
+
 /*color background red button*/
+.Crew-data {
+  background: var(--color-button);
+}
+
+.Crew-Yellow {
+  background: var(--color-button);
+}
 .Crew-data {
   background: var(--color-button);
 }
@@ -213,11 +240,8 @@ h2 {
   margin-bottom: -2%;
 }
 
-.deco {
-  padding: 20% 6% 6% 6%;
-  height: 95%;
-  width: auto;
-}
+
+
 
 
 
@@ -247,6 +271,7 @@ h2 {
 
 .frontPolaroid,
 .backPolaroid {
+
   position: absolute;
   width: 100%;
   height: 100%;
@@ -254,7 +279,7 @@ h2 {
 }
 
 .frontPolaroid {
-  background-color: #bbb;
+  /*background-color: #bbb;*/
   color: black;
 }
 
@@ -267,7 +292,7 @@ h2 {
 /* Annimation des polaroids*/
 
 .polaroid:hover {
-  animation: animpola ease-in-out 0.1s 8 alternate;
+  animation: animpola ease-in-out 0.12s 6 alternate;
 }
 
 
@@ -283,6 +308,10 @@ h2 {
 
 }
 
+/* photo verso citation*/
+
+.polaroidBack {
+  display: block;
 /* photo verso citation*/
 
 .polaroidBack {}
