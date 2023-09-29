@@ -90,7 +90,7 @@ flipOnClick.forEach(function (flip) {
 
 
 flipOnClick.forEach(function (unflip) {
-    unflip.addEventListener('mouseout', function () {
+    unflip.addEventListener('mouseleave', function () {
         unflip.classList.remove("flipping");
     });
 });
