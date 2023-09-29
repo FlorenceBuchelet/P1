@@ -11,9 +11,9 @@ const students = [
     };
 {
     name: "Hélène Rampelberg",
-        quote: "Salut c'est Hélène",
-            linkedin: "http://www.linkedin.com/",
-                github: "https://github.com/"
+        quote: "Don't worry, be happy!",
+            linkedin: "",
+                github: "https://github.com/HeleneRamp"
     picture: URL("assets/Helene.jpeg")
 };
 {
@@ -32,7 +32,7 @@ const students = [
 };
 {
     name: "Frédéric Ticon",
-        quote: "Qui part à fond finit comme un con",
+        quote: "Qui part à fond finit comme un con.",
             linkedin: "http://www.linkedin.com/",
                 github: "https://github.com/";
     picture: URL("assets/Fred.jpeg")
@@ -46,7 +46,7 @@ const students = [
 };
 {
     name: "Marie Saillard",
-        quote: "Salut c'est Marie",
+        quote: "Ce qui ne me tue pas me rend plus fort.",
             linkedin: "http://www.linkedin.com/",
                 github: "https://github.com/";
     picture: URL("assets/Marie.jpeg")
@@ -63,7 +63,7 @@ const students = [
 
 
 /* 
-//tentative de génération auto des cards
+//tentative échouée de génération auto des cards
 function updateCard(studentName, studentPicture) {
     const name = document.querySelectorAll(h2);
     const photo = document.querySelectorAll(".photo");
@@ -85,6 +85,13 @@ const flipOnClick = document.querySelectorAll('.polaroid');
 flipOnClick.forEach(function (flip) {
     flip.addEventListener('click', function () {
         flip.classList.add("flipping");
+    });
+});
+
+
+flipOnClick.forEach(function (unflip) {
+    unflip.addEventListener('mouseout', function () {
+        unflip.classList.remove("flipping");
     });
 });
 
