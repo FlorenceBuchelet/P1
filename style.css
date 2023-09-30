@@ -30,7 +30,9 @@
 /*nav bar*/
 
 .logo {
-  margin: 40px 68px 20px
+  margin: 2% 0 0 5%;
+  height: auto;
+  width: clamp(120px, 30%, 300px);
 }
 
 
@@ -46,24 +48,61 @@ nav {
   justify-content: center;
   align-items: center;
   float: inline-end;
+
 }
 
-a {
-  padding: 1.5em;
+[class^="Crew"] {
+  padding: 1em 0em;
   text-align: center;
-  width: auto;
-  height: 10%;
+  width: 15rem;
+  height: 4rem;
   border-radius: 1em 1em 0em 0em;
-  background: var(--color-button);
+
   border-left: 2px solid var(--color-border);
   border-top: 2px solid var(--color-border);
   border-right: 2px solid var(--color-border);
   text-align: center;
   justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+a {
+
+  position: absolute;
+
+
   font-family: var(--font-family);
   color: rgb(255, 255, 255);
-  font-size: clamp(19px, 2vw, 28px);
+  font-size: clamp(19px, 1vw, 28px);
 }
+
+.scotch {
+  width: 85%;
+
+  display: block;
+
+}
+
+
+
+/*color background red button*/
+.Crew-data {
+  background: var(--color-button);
+}
+
+.Crew-Yellow {
+  background: var(--color-button);
+}
+.Crew-data {
+  background: var(--color-button);
+}
+
+.Crew-Yellow {
+  background: var(--color-button);
+}
+
 
 
 .Crew-bleu {
@@ -124,7 +163,6 @@ ul {
   border-radius: 20px;
   border: 1px solid var(--color-border);
   padding-top: 3vh;
-  column-gap: 3%;
   padding: 4vh;
 }
 
@@ -185,7 +223,7 @@ ul li:nth-child(8) {
 
 h2 {
   padding-top: 7%;
-  padding-bottom: 3%;
+  padding-bottom: 7%;
   /*   font-size: 1.5em; */
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -199,12 +237,9 @@ h2 {
   object-fit: cover;
   width: 100%;
   max-height: 100%;
-
+  margin-bottom: -2%;
 }
 
-.deco {
-  padding: 20% 6% 6% 6%;
-}
 
 
 
@@ -213,9 +248,8 @@ h2 {
 
 .polaroid {
   background-color: transparent;
-  width: 350px;
   height: 400px;
-  perspective: 1000px;
+  /*   perspective: 1000px; */
 }
 
 .innerPolaroid {
@@ -228,12 +262,13 @@ h2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.polaroid:hover .innerPolaroid {
+.flipping:hover .innerPolaroid {
   transform: rotateY(180deg);
 }
 
 .frontPolaroid,
 .backPolaroid {
+
   position: absolute;
   width: 100%;
   height: 100%;
@@ -241,7 +276,7 @@ h2 {
 }
 
 .frontPolaroid {
-  background-color: #bbb;
+  /*background-color: #bbb;*/
   color: black;
 }
 
@@ -254,7 +289,7 @@ h2 {
 /* Annimation des polaroids*/
 
 .polaroid:hover {
-  animation: animpola ease-in-out 0.1s 8 alternate;
+  animation: animpola ease-in-out 0.12s 6 alternate;
 }
 
 /* farid menu-burger */
@@ -340,16 +375,22 @@ a.Crew-bleu, a.Crew-Yellow, a.Crew-data.mobile{
 
 }
 
-  /* photo verso citation*/
-  /*
-.polaroidBack{
+/* photo verso citation*/
+
+.polaroidBack {
   display: block;
+/* photo verso citation*/
 
-}
-.verso{
-width: 30px;
-height: 30px;
+.polaroidBack {}
+
+
+
+/*les logo git et link*/
+.verso {
+  width: 25%;
+  height: auto;
 }
 
-/*.nomVerso{
-  font-family: var(--font-family);/*
+.nomVerso{
+  font-family: var(--font-family);
+  */

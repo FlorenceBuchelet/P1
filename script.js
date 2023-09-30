@@ -1,19 +1,19 @@
 
-
+/* 
 // tableaux données élèves
-const students [
+const students = [
     {
         name: "Thomas Nigon",
         quote: "If it bleeds, we can kill it.",
         linkedin: "https://www.linkedin.com/in/thomas-nigon/",
         github: "https://github.com/Thomas-Nigon";
-picture: URL("assets/Thomas.jpeg")
-};
+        picture: URL("assets/Thomas.jpeg")
+    };
 {
     name: "Hélène Rampelberg",
-        quote: "Salut c'est Hélène",
-            linkedin: "http://www.linkedin.com/",
-                github: "https://github.com/"
+        quote: "Don't worry, be happy!",
+            linkedin: "",
+                github: "https://github.com/HeleneRamp"
     picture: URL("assets/Helene.jpeg")
 };
 {
@@ -32,7 +32,7 @@ picture: URL("assets/Thomas.jpeg")
 };
 {
     name: "Frédéric Ticon",
-        quote: "Qui part à fond finit comme un con",
+        quote: "Qui part à fond finit comme un con.",
             linkedin: "http://www.linkedin.com/",
                 github: "https://github.com/";
     picture: URL("assets/Fred.jpeg")
@@ -46,7 +46,7 @@ picture: URL("assets/Thomas.jpeg")
 };
 {
     name: "Marie Saillard",
-        quote: "Salut c'est Marie",
+        quote: "Ce qui ne me tue pas me rend plus fort.",
             linkedin: "http://www.linkedin.com/",
                 github: "https://github.com/";
     picture: URL("assets/Marie.jpeg")
@@ -59,7 +59,7 @@ picture: URL("assets/Thomas.jpeg")
     picture: URL("assets/Florence.jpeg")
 };
 
-]
+] */
 
 // const menuBurger = document.querySelector(".menu-burger")
 // const navbar = document.querySelector(".nav-bar")
@@ -70,7 +70,7 @@ picture: URL("assets/Thomas.jpeg")
 
 
 /* 
-//tentative de génération auto des cards
+//tentative échouée de génération auto des cards
 function updateCard(studentName, studentPicture) {
     const name = document.querySelectorAll(h2);
     const photo = document.querySelectorAll(".photo");
@@ -84,5 +84,21 @@ for (let i = 0; i < students.length; i++) {
 
 
 
-/*animation*/
+/*animation on click*/
+
+
+const flipOnClick = document.querySelectorAll('.polaroid');
+
+flipOnClick.forEach(function (flip) {
+    flip.addEventListener('click', function () {
+        flip.classList.add("flipping");
+    });
+});
+
+
+flipOnClick.forEach(function (unflip) {
+    unflip.addEventListener('mouseleave', function () {
+        unflip.classList.remove("flipping");
+    });
+});
 
