@@ -1,20 +1,15 @@
 /* Variable couleur */
 :root {
   --color-fond: rgba(219, 108, 108, 0.95);
-  --color-button: rgba(181.89, 62.90, 62.90, 0.95);
-  --color-polaroid: #FFF9F4;
+  --color-button: rgba(181.89, 62.9, 62.9, 0.95);
+  --color-polaroid: #fff9f4;
   --color-border: white;
   --color-texte: black;
   --border-polaroid: black;
 
   --font-family: FilsonPro-Medium, Arial, Helvetica, sans-serif;
   --font-family-pola: Kite One, Helvetica, sans-serif;
-
 }
-
-
-
-
 
 /* document complet */
 * {
@@ -26,7 +21,6 @@
   font-family: var(--font-family);
 }
 
-
 /*nav bar*/
 
 .logo {
@@ -35,9 +29,7 @@
   width: clamp(120px, 30%, 300px);
 }
 
-
 nav {
-
   display: flex;
   justify-content: flex-end;
   margin: -2px 5%;
@@ -48,7 +40,6 @@ nav {
   justify-content: center;
   align-items: center;
   float: inline-end;
-
 }
 
 [class^="Crew"] {
@@ -65,13 +56,10 @@ nav {
   justify-content: center;
   align-items: center;
   display: flex;
-
 }
 
 a {
-
   position: absolute;
-
 
   font-family: var(--font-family);
   color: rgb(255, 255, 255);
@@ -82,10 +70,7 @@ a {
   width: 85%;
 
   display: block;
-
 }
-
-
 
 /*color background red button*/
 .Crew-data {
@@ -104,13 +89,11 @@ a {
   background: var(--color-button);
 }
 
-
-
 .Crew-bleu {
   /*box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);*/
-  background-color: #DD7271;
+  background-color: #dd7271;
   /*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset; */
-  border-bottom: 3px solid #DD7271;
+  border-bottom: 3px solid #dd7271;
 }
 
 .Crew-data,
@@ -123,8 +106,6 @@ a {
   box-shadow: 0px 6px 6px rgba(53, 26, 26, 0.541) inset;
 }
 
-
-
 /* body */
 body {
   min-height: 100vh;
@@ -132,14 +113,12 @@ body {
   background-size: cover;
 }
 
-
 #polaroids {
   background-color: var(--color-fond);
   margin: 0% 5% 4% 5%;
   border: 2px solid var(--color-border);
   border-radius: 20px 0px 20px 20px;
   box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
-
 }
 
 h1 {
@@ -147,7 +126,6 @@ h1 {
   padding-top: 1%;
   color: var(--color-polaroid);
   font-size: clamp(20px, 8vw, 40px);
-  ;
 }
 
 /* polaroids */
@@ -167,8 +145,6 @@ ul {
   padding: 4vh;
 }
 
-
-
 .card {
   /*   border: 3px solid red; */
   display: grid;
@@ -186,8 +162,6 @@ ul li:nth-child(7) {
   transform: rotate(2deg);
 }
 
-
-
 ul li:nth-child(2),
 ul li:nth-child(4),
 ul li:nth-child(6),
@@ -195,10 +169,9 @@ ul li:nth-child(8) {
   transform: rotate(-2deg);
 }
 
-
 .frontPolaroid {
   margin: 0 auto;
-  font-family: var(--font-family-pola)
+  font-family: var(--font-family-pola);
 }
 
 .polaroid {
@@ -221,7 +194,6 @@ ul li:nth-child(8) {
   max-height: 100%;
 }
 
-
 h2 {
   padding-top: 7%;
   padding-bottom: 7%;
@@ -231,8 +203,6 @@ h2 {
 }
 
 .photo {
-
-
   border: 25px solid white;
   /*   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
   object-fit: cover;
@@ -240,10 +210,6 @@ h2 {
   max-height: 100%;
   margin-bottom: -2%;
 }
-
-
-
-
 
 /* animation Flip */
 
@@ -269,7 +235,6 @@ h2 {
 
 .frontPolaroid,
 .backPolaroid {
-
   position: absolute;
   width: 100%;
   height: 100%;
@@ -294,9 +259,44 @@ h2 {
   transform-origin: center -25px;
 }
 
+/* farid menu-burger */
+.menu-burger {
+  display: none;
+  position: absolute;
+  top: 25px;
+  right: 50px;
+  width: 35px;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-burger {
+    display: block;
+    position: absolute;
+  }
+
+  .Crew-data.mobile-menu {
+    margin-right: 0;
+  }
+
+  .Crew-bleu.mobile-menu {
+    margin-right: 0;
+  }
+
+  .Crew-Yellow.mobile-menu {
+    margin-right: 0;
+  }
+
+  .Crew-bleu,
+  .Crew-Yellow,
+  .Crew-data {
+    display: flex;
+    width: 100%;
+    margin-right: -150%;
+    transition: all 1.2s ease;
+  }
+}
 
 @keyframes animpola {
-
   0% {
     transform: rotate(5deg);
   }
@@ -304,7 +304,6 @@ h2 {
   100% {
     transform: rotate(-5deg);
   }
-
 }
 
 /* photo verso citation*/
@@ -315,22 +314,16 @@ h2 {
 
 /* photo verso citation*/
 
-}
-
 /*les logo git et link*/
 .verso {
   width: 25%;
   height: auto;
 }
 
-header p {
+p {
   margin-top: 8%;
   margin-bottom: 10%;
-  font-size: 1.5rem;
-  font-family: 'Courier New', Courier, monospace;
-  padding: 2%;
 }
-
 
 h3 {
   padding: 3% 0%;
@@ -345,7 +338,6 @@ footer p {
   font-family: var(--font-family);
   padding: 0;
   font-size: 1.5rem;
-
 }
 
 footer {
@@ -354,4 +346,13 @@ footer {
   height: 2rem;
   margin: 1rem 5%;
 
+  .deco {
+    padding: 20px;
+  }
+}
+
+.polaroid:active {
+  transform-style: preserve-3d;
+  transition: transform 1.5s;
+  transform: rotateY(180deg);
 }
