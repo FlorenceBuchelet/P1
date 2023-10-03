@@ -12,6 +12,10 @@
 
 }
 
+#deco {
+width: 20%;
+  border: 2px solid blue;
+}
 
 
 
@@ -171,9 +175,11 @@ ul {
 
 .card {
   /*   border: 3px solid red; */
-  display: grid;
+
+  /*display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
+  grid-template-rows: 1fr;*/
+
   text-align: center;
   max-width: 316px;
   max-height: auto;
@@ -211,15 +217,10 @@ ul li:nth-child(8) {
   max-height: 100%;
 }
 
-.polaroidBack {
-  background-color: var(--color-polaroid);
-  padding: 6%;
-  border: 2px solid grey;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  object-fit: cover;
-  width: 100%;
-  max-height: 100%;
+.punaise {
+  z-index: 10;
 }
+
 
 
 h2 {
