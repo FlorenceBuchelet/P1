@@ -213,12 +213,15 @@ h2 {
   margin-bottom: -2%;
 }
 
-.deco {
-  padding: 20% 6% 6% 6%;
-  height: 95%;
-  width: auto;
+.visibility {
+  visibility: hidden;
 }
 
+/* .deco {
+  padding: 20% 6% 6% 6%;
+
+}
+ */
 
 
 
