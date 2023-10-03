@@ -300,7 +300,8 @@ h2 {
 .verso {
   width: 15%;
   height: auto;
-  
+  display:inline;
+  justify-content:space-around;
  
 }
 
