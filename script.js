@@ -102,3 +102,24 @@ flipOnClick.forEach(function (unflip) {
     });
 });
 
+// animation navbar
+
+const menuBurger1 = document.querySelector(".menu-burger")
+const navbar1 = document.querySelector(".Crew-data")
+
+menuBurger1.addEventListener('click',()=>{
+    navbar1.classList.toggle('mobile-menu');
+})
+const menuBurger2 = document.querySelector(".menu-burger")
+const navbar2 = document.querySelector(".Crew-Yellow")
+
+menuBurger2.addEventListener('click',()=>{
+    navbar2.classList.toggle('mobile-menu');
+})
+const menuBurger = document.querySelector(".menu-burger")
+const navbar = document.querySelector(".Crew-bleu")
+
+menuBurger.addEventListener('click',()=>{
+    navbar.classList.toggle('mobile-menu');
+})
+
