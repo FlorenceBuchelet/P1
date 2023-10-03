@@ -95,6 +95,7 @@ a {
 .Crew-Yellow {
   background: var(--color-button);
 }
+
 .Crew-data {
   background: var(--color-button);
 }
@@ -289,7 +290,8 @@ h2 {
 /* Annimation des polaroids*/
 
 .polaroid:hover {
-  animation: animpola ease-in-out 0.12s 6 alternate;
+  animation: animpola ease-in-out 0.18s 4 alternate;
+  transform-origin: center -25px;
 }
 
 /* farid menu-burger */
@@ -352,9 +354,9 @@ h2 {
 
 .polaroidBack {
   display: block;
-/* photo verso citation*/
+}
 
-.polaroidBack {}
+/* photo verso citation*/
 
 
 
@@ -364,8 +366,34 @@ h2 {
   height: auto;
 }
 
-.nomVerso{
+p {
+  margin-top: 8%;
+  margin-bottom: 10%;
+
+}
+
+
+h3 {
+  padding: 3% 0%;
+  margin: 5%;
+  border: double 8px var(--color-button);
+}
+
+
+/* footer */
+
+footer p {
+  color: var(--color-polaroid);
   font-family: var(--font-family);
-  */
-  }
-  }
+  padding: 0;
+  font-size: 1.5rem;
+
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  height: 2rem;
+  margin: 1rem 5%;
+
+}
