@@ -195,12 +195,6 @@ const students = [
     }
 ];
 
-// const menuBurger = document.querySelector(".menu-burger")
-// const navbar = document.querySelector(".nav-bar")
-
-// menuBurger.addEventListener('click',()=>{
-//     navbar.classList.toggle('mobile')
-// })
 
 
 
