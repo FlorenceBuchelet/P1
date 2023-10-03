@@ -1,6 +1,6 @@
 
 // tableaux données élèves
-const crewBlue = [
+const students = [
     {
         name: "Thomas Nigon",
         quote: "« If it bleeds, we can kill it. »",
@@ -14,170 +14,184 @@ const crewBlue = [
         quote: "« Don't worry, be happy! »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/HeleneRamp",
-        picture: "assets/photos/helene.jpeg"
+        picture: "assets/photos/helene.jpeg",
+        crew: "blue"
     },
     {
         name: "Vincent Rousseaux",
         quote: "« Mistakes are a fact of life. It is the response to the error that counts. »",
         linkedin: "https://www.linkedin.com/in/vincent-rousseaux-500211172/",
         github: "https://github.com/VincentRssx",
-        picture: "assets/photos/vincent.jpeg"
+        picture: "assets/photos/vincent.jpeg",
+        crew: "blue"
     },
     {
         name: "Robin Fantino",
         quote: "« Viens, on va prendre une frite. »",
         linkedin: "http://www.linkedin.com/in/robin-fantino-b351b625b",
         github: "https://github.com/NemoOnTheNet",
-        picture: "assets/photos/Robin.jpeg"
+        picture: "assets/photos/Robin.jpeg",
+        crew: "blue"
     },
     {
         name: "Frédéric Ticon",
         quote: "« Qui part à fond finit comme un con. »",
         linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/Fred.jpeg"
+        github: "https://github.com/TICONFRED27",
+        picture: "assets/photos/Fred.jpeg",
+        crew: "blue"
     },
     {
         name: "Farid Zian",
         quote: "« Salut c'est Farid »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/photos/Farid.jpeg"
+        picture: "assets/photos/Farid.jpeg",
+        crew: "blue"
     },
     {
         name: "Marie Saillard",
         quote: "« Ce qui ne me tue pas me rend plus fort. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/photos/Marie.jpeg"
+        picture: "assets/photos/Marie.jpeg",
+        crew: "blue"
     },
     {
         name: "Florence Buchelet",
         quote: "« If you want to lift yourself up, lift up someone else. »",
         linkedin: "https://www.linkedin.com/in/florence-buchelet-928a7a228/",
         github: "https://github.com/FlorenceBuchelet",
-        picture: "assets/photos/Florence.jpeg"
-    }
-];
-
-
-
-const crewYellow = [
-    {
-        name: "Name Lastname",
-        quote: "« J'adore le dev, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/photos/Florence.jpeg",
+        crew: "blue"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "yellow"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "yellow"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "yellow"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "yellow"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "yellow"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "yellow"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
-    }
-];
-
-
-const crewData = [
+        picture: "assets/test polaroid.jpg",
+        crew: "yellow"
+    },
     {
         name: "Name Lastname",
-        quote: "« J'adore la data, les chips et les petits chats. »",
+        quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "yellow"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
     },
     {
         name: "Name Lastname",
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg"
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
+    },
+    {
+        name: "Name Lastname",
+        quote: "« J'adore la data, les chips et les petits chats. »",
+        linkedin: "http://www.linkedin.com/",
+        github: "https://github.com/",
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
     }
 ];
 
@@ -191,12 +205,10 @@ function createCards(picture, name, quote, github, linkedin) {
     //touch ul
     const unorderedList = document.querySelector("ul");
 
-
     // créer li "card"
     const card = document.createElement("li");
     card.classList.add("card");
     unorderedList.appendChild(card);
-
 
     // div "polaroid"
     const pola = document.createElement("div");
@@ -209,13 +221,11 @@ function createCards(picture, name, quote, github, linkedin) {
     innerPola.classList.add("innerPolaroid");
     pola.appendChild(innerPola);
 
-
     // créer front div class="frontPolaroid"
 
     const frontPola = document.createElement("div")
     frontPola.classList.add("frontPolaroid");
     innerPola.appendChild(frontPola);
-
 
     // créer l'image img class="photo"
 
@@ -224,7 +234,6 @@ function createCards(picture, name, quote, github, linkedin) {
     image.alt = "the student's polaroid portrait"
     image.classList.add("photo");
     frontPola.appendChild(image);
-
 
     // créer nom tag="h2"
     const nameFront = document.createElement("h2")
@@ -236,18 +245,15 @@ function createCards(picture, name, quote, github, linkedin) {
     backPola.classList.add("backPolaroid");
     innerPola.appendChild(backPola);
 
-
     // créer le nom au dos tag="h3"
     const nameBack = document.createElement("h3")
     nameBack.innerHTML = name;
     backPola.appendChild(nameBack);
 
-
     // créer la citation tag="p"
     const citation = document.createElement("p")
     citation.innerHTML = quote;
     backPola.appendChild(citation);
-
 
     //créer le lien github a class="github" (+img class="verso")
     const gitHubLink = document.createElement("a");
@@ -277,7 +283,6 @@ function createCards(picture, name, quote, github, linkedin) {
     deco.alt = "html css and javascript logos"
     deco.classList.add("deco");
     card.appendChild(deco);
-
 }
 
 
@@ -297,9 +302,9 @@ for (let i = 0; i < crewYellow.length; i++) {
     createCards(crewYellow[i].picture, crewYellow[i].name, crewYellow[i].quote, crewYellow[i].github, crewYellow[i].linkedin);
 } 
 */
-for (let i = 0; i < crewBlue.length; i++) {
+for (let i = 0; i < students.length; i++) {
     changeTitle.innerHTML = "Web Developer (crew blue) - Lille, Septembre 2023"
-    createCards(crewBlue[i].picture, crewBlue[i].name, crewBlue[i].quote, crewBlue[i].github, crewBlue[i].linkedin);
+    createCards(students[i].picture, students[i].name, students[i].quote, students[i].github, students[i].linkedin);
 }
 
 // si click crew data 1/ effacer ce qui existe 2/ renouveller les cards 3/ changer titre
