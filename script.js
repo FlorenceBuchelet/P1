@@ -6,7 +6,7 @@ const students = [
         quote: "« If it bleeds, we can kill it. »",
         linkedin: "https://www.linkedin.com/in/thomas-nigon/",
         github: "https://github.com/Thomas-Nigon",
-        picture: "assets/photos/thomas.jpeg",
+        picture: "assets/photos/blue/thomas.jpeg",
         crew: "blue"
     },
     {
@@ -14,7 +14,7 @@ const students = [
         quote: "« Don't worry, be happy! »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/HeleneRamp",
-        picture: "assets/photos/helene.jpeg",
+        picture: "assets/photos/blue/helene.jpeg",
         crew: "blue"
     },
     {
@@ -22,7 +22,7 @@ const students = [
         quote: "« Mistakes are a fact of life. It is the response to the error that counts. »",
         linkedin: "https://www.linkedin.com/in/vincent-rousseaux-500211172/",
         github: "https://github.com/VincentRssx",
-        picture: "assets/photos/vincent.jpeg",
+        picture: "assets/photos/blue/vincent.jpeg",
         crew: "blue"
     },
     {
@@ -30,7 +30,7 @@ const students = [
         quote: "« Viens, on va prendre une frite. »",
         linkedin: "http://www.linkedin.com/in/robin-fantino-b351b625b",
         github: "https://github.com/NemoOnTheNet",
-        picture: "assets/photos/Robin.jpeg",
+        picture: "assets/photos/blue/Robin.jpeg",
         crew: "blue"
     },
     {
@@ -38,7 +38,7 @@ const students = [
         quote: "« Qui part à fond finit comme un con. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/TICONFRED27",
-        picture: "assets/photos/Fred.jpeg",
+        picture: "assets/photos/blue/Fred.jpeg",
         crew: "blue"
     },
     {
@@ -46,15 +46,15 @@ const students = [
         quote: "« Salut c'est Farid »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/photos/Farid.jpeg",
+        picture: "assets/photos/blue/Farid.jpeg",
         crew: "blue"
     },
     {
         name: "Marie Saillard",
-        quote: "« Ce qui ne me tue pas me rend plus fort. »",
+        quote: "« Ce qui ne nous tue pas nous rend plus fort. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/photos/Marie.jpeg",
+        picture: "assets/photos/blue/Marie.jpeg",
         crew: "blue"
     },
     {
@@ -62,15 +62,17 @@ const students = [
         quote: "« If you want to lift yourself up, lift up someone else. »",
         linkedin: "https://www.linkedin.com/in/florence-buchelet-928a7a228/",
         github: "https://github.com/FlorenceBuchelet",
-        picture: "assets/photos/Florence.jpeg",
+        picture: "assets/photos/blue/Florence.jpeg",
         crew: "blue"
     },
+
+    /*crow yellow*/
     {
         name: "Name Lastname",
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/cyrille.jpeg",
         crew: "yellow"
     },
     {
@@ -78,7 +80,7 @@ const students = [
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Julien.jpeg",
         crew: "yellow"
     },
     {
@@ -86,7 +88,7 @@ const students = [
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Mathieu.jpeg",
         crew: "yellow"
     },
     {
@@ -94,7 +96,7 @@ const students = [
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Pierre-Adrien.jpeg",
         crew: "yellow"
     },
     {
@@ -102,7 +104,7 @@ const students = [
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Rayan.jpeg",
         crew: "yellow"
     },
     {
@@ -110,7 +112,7 @@ const students = [
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Romain.jpeg",
         crew: "yellow"
     },
     {
@@ -118,7 +120,7 @@ const students = [
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Sebastien.jpeg",
         crew: "yellow"
     },
     {
@@ -126,7 +128,7 @@ const students = [
         quote: "« J'adore le dev, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Yannick.jpeg",
         crew: "yellow"
     },
     {
@@ -135,6 +137,18 @@ const students = [
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture: "assets/test polaroid.jpg",
+        crew: "Yellow"
+    },
+
+
+    /*crew Data*/
+
+    {
+        name: "Name Lastname",
+        quote: "« J'adore la data, les chips et les petits chats. »",
+        linkedin: "http://www.linkedin.com/",
+        github: "https://github.com/",
+        picture: "assets/photos/data/Caroline.jpeg",
         crew: "data"
     },
     {
@@ -142,7 +156,7 @@ const students = [
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/data/Dorothée.jpeg",
         crew: "data"
     },
     {
@@ -150,7 +164,7 @@ const students = [
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/data/Felix.jpeg",
         crew: "data"
     },
     {
@@ -158,7 +172,7 @@ const students = [
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/data/Gregoire.jpeg",
         crew: "data"
     },
     {
@@ -166,7 +180,7 @@ const students = [
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/data/Gwenaelle.jpeg",
         crew: "data"
     },
     {
@@ -174,26 +188,11 @@ const students = [
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
-        crew: "data"
-    },
-    {
-        name: "Name Lastname",
-        quote: "« J'adore la data, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
-        crew: "data"
-    },
-    {
-        name: "Name Lastname",
-        quote: "« J'adore la data, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/data/Julien.jpeg",
         crew: "data"
     }
 ];
+
 
 
 
@@ -366,22 +365,24 @@ flipOnClick.forEach(function (unflip) {
 
 // animation navbar
 
-const menuBurger1 = document.querySelector(".menu-burger")
+const menuBurger= document.querySelector(".menu-burger")
 const navbar1 = document.querySelector(".Crew-data")
 
-menuBurger1.addEventListener('click',()=>{
+menuBurger.addEventListener('click', () => {
     navbar1.classList.toggle('mobile-menu');
 })
-const menuBurger2 = document.querySelector(".menu-burger")
+
 const navbar2 = document.querySelector(".Crew-Yellow")
 
-menuBurger2.addEventListener('click',()=>{
+menuBurger.addEventListener('click', () => {
     navbar2.classList.toggle('mobile-menu');
 })
-const menuBurger = document.querySelector(".menu-burger")
-const navbar = document.querySelector(".Crew-bleu")
 
-menuBurger.addEventListener('click',()=>{
-    navbar.classList.toggle('mobile-menu');
+const navbar3 = document.querySelector(".Crew-bleu")
+
+menuBurger.addEventListener('click', () => {
+    navbar3.classList.toggle('mobile-menu');
 })
+
+
 
