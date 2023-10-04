@@ -66,129 +66,119 @@ const students = [
         crew: "blue"
     },
 
-    /*crow yellow*/
+    /*crew yellow*/
     {
-        name: "Name Lastname",
-        quote: "« J'adore le dev, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/yellow/cyrille.jpeg",
+        name: "Imbrasse Romain",
+        quote: "« Rien n'est sérieux en ce bas monde que le rire. »",
+        linkedin: "https://www.linkedin.com/in/romain-imbrasse-9480ab1ba/",
+        github: "https://github.com/Romlion",
+        picture: "assets/test polaroid.jpg",
         crew: "yellow"
     },
     {
-        name: "Name Lastname",
-        quote: "« J'adore le dev, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/yellow/Julien.jpeg",
+        name: "Pierre Adrien Gouillart",
+        quote: "« Mundi placet et spiritus minima. »",
+        linkedin: "https://www.linkedin.com/in/pierre-adrien-gouillart",
+        github: "https://github.com/pagouillart",
+        picture: "assets/test polaroid.jpg",
         crew: "yellow"
     },
     {
-        name: "Name Lastname",
-        quote: "« J'adore le dev, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/yellow/Mathieu.jpeg",
+        name: "Lucas Merino",
+        quote: "« I prefer not to speak. »",
+        linkedin: "https://www.linkedin.com/in/lucasmerino10/",
+        github: "https://github.com/LucasMerino10",
+        picture: "assets/test polaroid.jpg",
         crew: "yellow"
     },
     {
-        name: "Name Lastname",
-        quote: "« J'adore le dev, les chips et les petits chats. »",
+        name: "Cyril Daburon",
+        quote: "« Je comprends ici ce qu’on appelle gloire : le droit d’aimer sans mesure. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture: "assets/photos/yellow/Pierre-Adrien.jpeg",
         crew: "yellow"
     },
     {
-        name: "Name Lastname",
-        quote: "« J'adore le dev, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/yellow/Rayan.jpeg",
+        name: "Xavier Lobez",
+        quote: "« Papy fait de la résistance ! »",
+        linkedin: "https://www.linkedin.com/in/xavier-lobez-892501227/",
+        github: "https://github.com/Bravax",
+        picture: "assets/test polaroid.jpg",
         crew: "yellow"
     },
     {
-        name: "Name Lastname",
-        quote: "« J'adore le dev, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/yellow/Romain.jpeg",
+        name: "Julien Ozarowski",
+        quote: "« Le gras c’est la vie... et encore plus quand c’est du fromage fondu. »",
+        linkedin: "https://www.linkedin.com/in/julien-ozarowski",
+        github: "https://github.com/JulienOza",
+        picture: "assets/test polaroid.jpg",
         crew: "yellow"
     },
     {
-        name: "Name Lastname",
-        quote: "« J'adore le dev, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
+        name: "Sébastien Samyn",
+        quote: "« Je suis adroit de la main gauche et je suis gauche de la main droite. »",
+        linkedin: "https://www.linkedin.com/in/sebastien-samyn",
         github: "https://github.com/",
         picture: "assets/photos/yellow/Sebastien.jpeg",
         crew: "yellow"
     },
     {
-        name: "Name Lastname",
-        quote: "« J'adore le dev, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/yellow/Yannick.jpeg",
+        name: "Rayane Moussaoui",
+        quote: "« C’est pas faux. »",
+        linkedin: "#",
+        github: "https://github.com/Rayane0823",
+        picture: "assets/test polaroid.jpg",
         crew: "yellow"
     },
+  
+     /*crew Data*/
     {
-        name: "Name Lastname",
-        quote: "« J'adore la data, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
+        name: "Caroline Rouvillain",
+        quote: "« Nous savons bien que notre action n’est qu’une goutte d’eau dans l’océan, mais sans notre action cette goute manquerait. »",
+        linkedin: "https://www.linkedin.com/in/caroline-rouvillain-65b7a3160/",
         github: "https://github.com/",
         picture: "assets/test polaroid.jpg",
-        crew: "Yellow"
-    },
-
-
-    /*crew Data*/
-
-    {
-        name: "Name Lastname",
-        quote: "« J'adore la data, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/data/Caroline.jpeg",
         crew: "data"
     },
     {
-        name: "Name Lastname",
-        quote: "« J'adore la data, les chips et les petits chats. »",
+        name: "Gwenaëlle Deschamps",
+        quote: "« Quand on vise la médiocrité, c’est elle qui vous atteint. »",
+        linkedin: "https://www.linkedin.com/in/gwena%C3%ABlle-deschamps-419772138/",
+        github: "https://github.com/",
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
+    },
+    {
+        name: "Julien Billardon",
+        quote: "« Nous ne nous arrêtons pas de jouer parce que nous vieillissons, mais nous vieillissons parce que nous nous arrêtons de jouer. »",
+        linkedin: "https://www.linkedin.com/in/julien-billardon-185476158/",
+        github: "https://github.com/Ju-stASimpleName",
+        picture: "assets/test polaroid.jpg",
+        crew: "data"
+    },
+    {
+        name: "Félix Depret",
+        quote: "« Que peut le bœuf face à un lion ensanglanté. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture: "assets/photos/data/Dorothée.jpeg",
         crew: "data"
     },
     {
-        name: "Name Lastname",
-        quote: "« J'adore la data, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
+        name: "Grégoire Lozach",
+        quote: "« La vie serait une comédie bien agréable, si l'on n'y jouait pas un rôle. »",
+        linkedin: "https://www.linkedin.com/in/gr%C3%A9goire-lozac-h-1861b985/",
         github: "https://github.com/",
         picture: "assets/photos/data/Felix.jpeg",
         crew: "data"
     },
     {
-        name: "Name Lastname",
+        name: "Dorothée Catry",
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture: "assets/photos/data/Gregoire.jpeg",
-        crew: "data"
-    },
-    {
-        name: "Name Lastname",
-        quote: "« J'adore la data, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/data/Gwenaelle.jpeg",
-        crew: "data"
-    },
-    {
-        name: "Name Lastname",
-        quote: "« J'adore la data, les chips et les petits chats. »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture: "assets/photos/data/Julien.jpeg",
         crew: "data"
     }
 ];
