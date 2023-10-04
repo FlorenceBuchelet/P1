@@ -7,6 +7,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/thomas-nigon/",
         github: "https://github.com/Thomas-Nigon",
         picture: "assets/photos/blue/thomas.jpeg",
+        deco: "assets/logos/Agile.png",
         crew: "blue"
     },
     {
@@ -15,6 +16,7 @@ const students = [
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/HeleneRamp",
         picture: "assets/photos/blue/helene.jpeg",
+        deco: "assets/logos/logosHtmlCss.png",
         crew: "blue"
     },
     {
@@ -23,6 +25,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/vincent-rousseaux-500211172/",
         github: "https://github.com/VincentRssx",
         picture: "assets/photos/blue/vincent.jpeg",
+        deco: "assets/logos/logoCli.png",
         crew: "blue"
     },
     {
@@ -31,6 +34,7 @@ const students = [
         linkedin: "http://www.linkedin.com/in/robin-fantino-b351b625b",
         github: "https://github.com/NemoOnTheNet",
         picture: "assets/photos/blue/Robin.jpeg",
+        deco: "assets/logos/Logo-JS.png",
         crew: "blue"
     },
     {
@@ -39,6 +43,7 @@ const students = [
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/TICONFRED27",
         picture: "assets/photos/blue/Fred.jpeg",
+        deco: "assets/logos/react-logo.png",
         crew: "blue"
     },
     {
@@ -47,6 +52,7 @@ const students = [
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture: "assets/photos/blue/Farid.jpeg",
+        deco: "assets/logos/SQL.png",
         crew: "blue"
     },
     {
@@ -55,6 +61,7 @@ const students = [
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture: "assets/photos/blue/Marie.jpeg",
+        deco: "assets/logos/logoGit.png",
         crew: "blue"
     },
     {
@@ -63,6 +70,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/florence-buchelet-928a7a228/",
         github: "https://github.com/FlorenceBuchelet",
         picture: "assets/photos/blue/Florence.jpeg",
+        deco: "assets/logos/logoNode.png",
         crew: "blue"
     },
 
@@ -73,6 +81,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/romain-imbrasse-9480ab1ba/",
         github: "https://github.com/Romlion",
         picture: "assets/test polaroid.jpg",
+        deco: "assets/logos/logoNumpy.png",
         crew: "yellow"
     },
     {
@@ -80,7 +89,8 @@ const students = [
         quote: "« Mundi placet et spiritus minima. »",
         linkedin: "https://www.linkedin.com/in/pierre-adrien-gouillart",
         github: "https://github.com/pagouillart",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Pierre-Adrien.jpeg",
+        deco: "assets/logos/logoPHP.png",
         crew: "yellow"
     },
     {
@@ -89,6 +99,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/lucasmerino10/",
         github: "https://github.com/LucasMerino10",
         picture: "assets/test polaroid.jpg",
+        deco: "assets/logos/logoPython.png",
         crew: "yellow"
     },
     {
@@ -96,7 +107,8 @@ const students = [
         quote: "« Je comprends ici ce qu’on appelle gloire : le droit d’aimer sans mesure. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/photos/yellow/Pierre-Adrien.jpeg",
+        picture: "assets/test polaroid.jpg",
+        deco: "assets/logos/logoSymfony.png",
         crew: "yellow"
     },
     {
@@ -105,6 +117,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/xavier-lobez-892501227/",
         github: "https://github.com/Bravax",
         picture: "assets/test polaroid.jpg",
+        deco: "assets/logos/Agile.png",
         crew: "yellow"
     },
     {
@@ -113,6 +126,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/julien-ozarowski",
         github: "https://github.com/JulienOza",
         picture: "assets/test polaroid.jpg",
+        deco: "assets/logos/css-logo.png",
         crew: "yellow"
     },
     {
@@ -121,6 +135,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sebastien-samyn",
         github: "https://github.com/",
         picture: "assets/photos/yellow/Sebastien.jpeg",
+        deco: "assets/logos/htm-logo.png",
         crew: "yellow"
     },
     {
@@ -129,6 +144,7 @@ const students = [
         linkedin: "#",
         github: "https://github.com/Rayane0823",
         picture: "assets/test polaroid.jpg",
+        deco: "assets/logos/Logo-JS.png",
         crew: "yellow"
     },
   
@@ -139,6 +155,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/caroline-rouvillain-65b7a3160/",
         github: "https://github.com/",
         picture: "assets/test polaroid.jpg",
+        deco: "assets/logos/Agile.png",
         crew: "data"
     },
     {
@@ -147,6 +164,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/gwena%C3%ABlle-deschamps-419772138/",
         github: "https://github.com/",
         picture: "assets/test polaroid.jpg",
+        deco: "assets/logos/logoNumpy.png",
         crew: "data"
     },
     {
@@ -155,6 +173,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/julien-billardon-185476158/",
         github: "https://github.com/Ju-stASimpleName",
         picture: "assets/test polaroid.jpg",
+        deco: "assets/logos/logoPHP.png",
         crew: "data"
     },
     {
@@ -162,7 +181,8 @@ const students = [
         quote: "« Que peut le bœuf face à un lion ensanglanté. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/photos/data/Dorothée.jpeg",
+        picture: "assets/photos/data/Felix.jpeg",
+        deco: "assets/logos/logoPython.png",
         crew: "data"
     },
     {
@@ -170,7 +190,8 @@ const students = [
         quote: "« La vie serait une comédie bien agréable, si l'on n'y jouait pas un rôle. »",
         linkedin: "https://www.linkedin.com/in/gr%C3%A9goire-lozac-h-1861b985/",
         github: "https://github.com/",
-        picture: "assets/photos/data/Felix.jpeg",
+        picture: "assets/photos/data/Gregoire.jpeg",
+        deco: "assets/logos/logoSymfony.png",
         crew: "data"
     },
     {
@@ -178,7 +199,8 @@ const students = [
         quote: "« J'adore la data, les chips et les petits chats. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/photos/data/Gregoire.jpeg",
+        picture: "assets/photos/data/Dorothée.jpeg",
+        deco: "assets/logos/SQL.png",
         crew: "data"
     }
 ];
@@ -190,9 +212,16 @@ const students = [
 // Génération de cards
 
 
-function createCards(picture, name, quote, github, linkedin) {
+function createCards(picture, name, quote, github, linkedin, decoration) {
 
-    //touch ul
+    // remove ancienne liste
+
+    //créer ul
+
+    /*     const sectionPolaroids = document.querySelector("#polaroids");
+        const unorderedList = document.createElement("ul");
+        sectionPolaroids.appendChild(unorderedList);  */
+
     const unorderedList = document.querySelector("ul");
 
     // créer li "card"
@@ -213,20 +242,20 @@ function createCards(picture, name, quote, github, linkedin) {
 
     // créer front div class="frontPolaroid"
 
-    const frontPola = document.createElement("div")
+    const frontPola = document.createElement("div");
     frontPola.classList.add("frontPolaroid");
     innerPola.appendChild(frontPola);
 
     // créer l'image img class="photo"
 
-    const image = document.createElement("img")
+    const image = document.createElement("img");
     image.src = picture;
-    image.alt = "the student's polaroid portrait"
+    image.alt = "the student's polaroid portrait";
     image.classList.add("photo");
     frontPola.appendChild(image);
 
     // créer nom tag="h2"
-    const nameFront = document.createElement("h2")
+    const nameFront = document.createElement("h2");
     nameFront.innerHTML = name;
     frontPola.appendChild(nameFront);
 
@@ -236,25 +265,14 @@ function createCards(picture, name, quote, github, linkedin) {
     innerPola.appendChild(backPola);
 
     // créer le nom au dos tag="h3"
-    const nameBack = document.createElement("h3")
+    const nameBack = document.createElement("h3");
     nameBack.innerHTML = name;
     backPola.appendChild(nameBack);
 
     // créer la citation tag="p"
-    const citation = document.createElement("p")
+    const citation = document.createElement("p");
     citation.innerHTML = quote;
     backPola.appendChild(citation);
-
-    //créer le lien github a class="github" (+img class="verso")
-    const gitHubLink = document.createElement("a");
-    gitHubLink.href = github;
-    gitHubLink.classList.add("github");
-    const gitHubLogo = document.createElement("img");
-    gitHubLogo.src = "assets/logo-github.png";
-    gitHubLogo.alt = "Logo GitHub";
-    gitHubLogo.classList.add("verso");
-    gitHubLink.appendChild(gitHubLogo);
-    backPola.appendChild(gitHubLink);
 
     // créer le lien linkedin class="linkedin"
     const linkedinLink = document.createElement("a");
@@ -267,91 +285,118 @@ function createCards(picture, name, quote, github, linkedin) {
     linkedinLink.appendChild(linkedinLogo);
     backPola.appendChild(linkedinLink);
 
+    //créer le lien github a class="github" (+img class="verso")
+    const gitHubLink = document.createElement("a");
+    gitHubLink.href = github;
+    gitHubLink.classList.add("github");
+    const gitHubLogo = document.createElement("img");
+    gitHubLogo.src = "assets/logo-github.png";
+    gitHubLogo.alt = "Logo GitHub";
+    gitHubLogo.classList.add("verso");
+    gitHubLink.appendChild(gitHubLogo);
+    backPola.appendChild(gitHubLink);
+
+
     // créer la deco img class="deco"
-    const deco = document.createElement("img")
-    deco.src = "assets/test tape.jpg";
-    deco.alt = "html css and javascript logos"
+    const deco = document.createElement("img");
+    deco.src = decoration;
+    deco.alt = "HTML CSS or Javascript logos";
     deco.classList.add("deco");
     card.appendChild(deco);
 }
 
 
+
 // appeler la function
 
 
-// par défaut toute la promo + changer titre
 const changeTitle = document.querySelector("h1");
-/*
-changeTitle.innerHTML = "Wild Code School - Lille, Septembre 2023"
 
- for (let i = 0; i < crewData.length; i++) {
-  //  filtre
-    createCards(crewData[i].picture, crewData[i].name, crewData[i].quote, crewData[i].github, crewData[i].linkedin);
-}
-for (let i = 0; i < crewYellow.length; i++) {
-    createCards(crewYellow[i].picture, crewYellow[i].name, crewYellow[i].quote, crewYellow[i].github, crewYellow[i].linkedin);
-} 
-*/
+const onlyBlue = students.filter((whichCrew) => whichCrew.crew === "blue");
+const onlyYellow = students.filter((whichCrew) => whichCrew.crew === "yellow");
+const onlyData = students.filter((whichCrew) => whichCrew.crew === "data");
+
+
+// liste promo de base
+
 for (let i = 0; i < students.length; i++) {
-    changeTitle.innerHTML = "Web Developer (crew blue) - Lille, Septembre 2023"
-    createCards(students[i].picture, students[i].name, students[i].quote, students[i].github, students[i].linkedin);
+    changeTitle.innerHTML = "Wild Code School - Lille, Septembre 2023"
+    createCards(students[i].picture, students[i].name, students[i].quote, students[i].github, students[i].linkedin, students[i].deco);
 }
 
-// si click crew data 1/ effacer ce qui existe 2/ renouveller les cards 3/ changer titre
+// function remove list
 
-/* const deleteCards = document.querySelector("ul");
-deleteCards.addEventListener('click', function () {
-    deleteCards.classList.add("visibility");
-}); 
+function removeCards() {
+    const sectionPolaroids = document.querySelector("#polaroids");
+    const unorderedListRemove = document.querySelector("ul");
+    unorderedListRemove.remove();
+    const unorderedList = document.createElement("ul");
+    sectionPolaroids.appendChild(unorderedList);
+}
+
+
+
+const clickBlue = document.querySelector(".Crew-bleu");
+clickBlue.addEventListener('click', function () {
+    removeCards();
+    for (let i = 0; i < onlyBlue.length; i++) {
+        changeTitle.innerHTML = "Web Developer - Lille, Septembre 2023";
+        createCards(onlyBlue[i].picture, onlyBlue[i].name, onlyBlue[i].quote, onlyBlue[i].github, onlyBlue[i].linkedin, onlyBlue[i].deco);
+    }
+    callFlipOnClick();
+});
+
+
+const clickYellow = document.querySelector(".Crew-Yellow");
+clickYellow.addEventListener('click', function () {
+    removeCards();
+    for (let i = 0; i < onlyYellow.length; i++) {
+        changeTitle.innerHTML = "Web Developer - Lille, Septembre 2023"
+        createCards(onlyYellow[i].picture, onlyYellow[i].name, onlyYellow[i].quote, onlyYellow[i].github, onlyYellow[i].linkedin, onlyYellow[i].deco);
+    }
+    callFlipOnClick();
+});
 
 const clickData = document.querySelector(".Crew-data");
-
 clickData.addEventListener('click', function () {
-    changeTitle.innerHTML = "Data Analyst - Lille, Septembre 2023"
-    for (let i = 0; i < crewData.length; i++) {
-        createCards(crewData[i].picture, crewData[i].name, crewData[i].quote, crewData[i].github, crewData[i].linkedin);
+    removeCards();
+    for (let i = 0; i < onlyData.length; i++) {
+        changeTitle.innerHTML = "Data Analyst - Lille, Septembre 2023"
+        createCards(onlyData[i].picture, onlyData[i].name, onlyData[i].quote, onlyData[i].github, onlyData[i].linkedin, onlyData[i].deco);
     }
+    callFlipOnClick();
 });
 
-// si click crew yellow 1/effacer ce qui existe 2/ renouveller les cards 3/ changer titre
-const clickYellow = document.querySelector(".Crew-Yellow");
-
-clickYellow.addEventListener('click', function () {
-    changeTitle.innerHTML = "Web Developer (crew yellow) - Lille, Septembre 2023"
-    for (let i = 0; i < crewYellow.length; i++) {
-        createCards(crewYellow[i].picture, crewYellow[i].name, crewYellow[i].quote, crewYellow[i].github, crewYellow[i].linkedin);
-    }
-});
-
-// si click crew blue 1/effacer ce qui existe 2/ renouveller les cards 3/ changer titre
-const clickBlue = document.querySelector(".Crew-bleu");
-
-clickBlue.addEventListener('click', function () {
-    changeTitle.innerHTML = "Web Developer (crew blue)- Lille, Septembre 2023"
-    for (let i = 0; i < crewBlue.length; i++) {
-        createCards(crewBlue[i].picture, crewBlue[i].name, crewBlue[i].quote, crewBlue[i].github, crewBlue[i].linkedin);
-    }
-});*/
 
 
 
-/*animation on click*/
 
+/*animation flip*/
 
-const flipOnClick = document.querySelectorAll('.polaroid');
+function callFlipOnClick() {
 
-flipOnClick.forEach(function (flip) {
-    flip.addEventListener('click', function () {
-        flip.classList.add("flipping");
+    const flipOnClick = document.querySelectorAll('.polaroid');
+
+    flipOnClick.forEach(function (flip) {
+        flip.addEventListener('click', function () {
+            flip.classList.add("flipping");
+        });
     });
-});
 
 
-flipOnClick.forEach(function (unflip) {
-    unflip.addEventListener('mouseleave', function () {
-        unflip.classList.remove("flipping");
+    flipOnClick.forEach(function (unflip) {
+        unflip.addEventListener('mouseleave', function () {
+            unflip.classList.remove("flipping");
+        });
     });
-});
+}
+callFlipOnClick();
+
+
+
+
+
+
 
 // animation navbar
 
@@ -360,16 +405,19 @@ const cData = document.querySelector(".Crew-data")
 const cYellow = document.querySelector(".Crew-Yellow")
 const cBleu = document.querySelector(".Crew-bleu")
 
-const cadrePolaroids = document.querySelector("#polaroids")
 
 menuBurger.addEventListener('click', () => {
     cData.classList.toggle('mobile-menu');
     cYellow.classList.toggle('mobile-menu');
     cBleu.classList.toggle('mobile-menu');
     /*cadrePolaroids.style.border-radius = 0px;*/
+
 })
 
-/*const  cDataHover = document.querySelector(".Crew-data:hover")*/
+
+// navbar onclick
+
+const cadrePolaroids = document.querySelector("#polaroids")
 
 cData.addEventListener('click', () => {
   cData.style.backgroundColor="var(--color-fond)";
