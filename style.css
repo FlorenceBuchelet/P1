@@ -310,9 +310,18 @@ h2 {
 .verso {
   width: 25%;
   height: auto;
-  display: inline;
   margin: 8%;
+  position: absolute;
+}
 
+.linkedin img {
+  bottom: -1rem;
+  left: 50%;
+}
+
+.github img {
+  bottom: -1rem;
+  right: 50%;
 }
 
 p {
