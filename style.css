@@ -121,7 +121,7 @@ h1 {
   text-align: center;
   padding-top: 1%;
   color: var(--color-polaroid);
-  font-size: clamp(20px, 8vw, 40px);
+  font-size: clamp(1rem, 7vw, 2rem);
 }
 
 /* polaroids */
@@ -325,7 +325,12 @@ h2 {
 
 p {
 
+
+  margin-top: 10%;
   margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+
   font-family: inherit;
   font-size: 24px;
   font-style: italic;
