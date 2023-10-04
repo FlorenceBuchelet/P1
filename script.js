@@ -48,9 +48,9 @@ const students = [
     },
     {
         name: "Farid Zian",
-        quote: "« Salut c'est Farid »",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
+        quote: "« Le bonheur, ce n'est pas de faire ce que l'on veut, mais de vouloir ce que l'on fait. »",
+        linkedin: "https://www.linkedin.com/in/farid-zian-a81a2848/",
+        github: "https://github.com/Farid-Zian",
         picture: "assets/photos/blue/Farid.jpeg",
         deco: "assets/logos/SQL.png",
         crew: "blue"
@@ -80,7 +80,7 @@ const students = [
         quote: "« Rien n'est sérieux en ce bas monde que le rire. »",
         linkedin: "https://www.linkedin.com/in/romain-imbrasse-9480ab1ba/",
         github: "https://github.com/Romlion",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Romain.jpeg",
         deco: "assets/logos/logoNumpy.png",
         crew: "yellow"
     },
@@ -98,7 +98,7 @@ const students = [
         quote: "« I prefer not to speak. »",
         linkedin: "https://www.linkedin.com/in/lucasmerino10/",
         github: "https://github.com/LucasMerino10",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Lucas.jpeg",
         deco: "assets/logos/logoPython.png",
         crew: "yellow"
     },
@@ -107,8 +107,8 @@ const students = [
         quote: "« Je comprends ici ce qu’on appelle gloire : le droit d’aimer sans mesure. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
-        deco: "assets/logos/logoSymfony.png",
+        picture:"assets/photos/yellow/cyril.jpeg",
+        deco: "assets/logos/SQL.png",
         crew: "yellow"
     },
     {
@@ -116,7 +116,7 @@ const students = [
         quote: "« Papy fait de la résistance ! »",
         linkedin: "https://www.linkedin.com/in/xavier-lobez-892501227/",
         github: "https://github.com/Bravax",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Xavier.jpeg",
         deco: "assets/logos/Agile.png",
         crew: "yellow"
     },
@@ -125,7 +125,7 @@ const students = [
         quote: "« Le gras c’est la vie... et encore plus quand c’est du fromage fondu. »",
         linkedin: "https://www.linkedin.com/in/julien-ozarowski",
         github: "https://github.com/JulienOza",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/test polaroid.jpg" /*"assets/photos/yellow/Julien.jpeg"*/,
         deco: "assets/logos/css-logo.png",
         crew: "yellow"
     },
@@ -143,10 +143,21 @@ const students = [
         quote: "« C’est pas faux. »",
         linkedin: "#",
         github: "https://github.com/Rayane0823",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/yellow/Rayan.jpeg",
         deco: "assets/logos/Logo-JS.png",
         crew: "yellow"
     },
+    {
+        name: "Matthieu Thierry",
+        quote: " La connaissance est le pouvoir :)",
+        linkedin: "#",
+        github: "https://github.com/ItsMatDev",
+        picture:"assets/photos/yellow/Mathieu.jpeg",
+        deco: "assets/logos/Logo-JS.png",
+        crew: "yellow"
+    },
+
+
   
      /*crew Data*/
     {
@@ -154,7 +165,7 @@ const students = [
         quote: "« Nous savons bien que notre action n’est qu’une goutte d’eau dans l’océan, mais sans notre action cette goute manquerait. »",
         linkedin: "https://www.linkedin.com/in/caroline-rouvillain-65b7a3160/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/data/Caroline.jpeg",
         deco: "assets/logos/Agile.png",
         crew: "data"
     },
@@ -163,7 +174,7 @@ const students = [
         quote: "« Quand on vise la médiocrité, c’est elle qui vous atteint. »",
         linkedin: "https://www.linkedin.com/in/gwena%C3%ABlle-deschamps-419772138/",
         github: "https://github.com/",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/data/Gwenaelle.jpeg",
         deco: "assets/logos/logoNumpy.png",
         crew: "data"
     },
@@ -172,7 +183,7 @@ const students = [
         quote: "« Nous ne nous arrêtons pas de jouer parce que nous vieillissons, mais nous vieillissons parce que nous nous arrêtons de jouer. »",
         linkedin: "https://www.linkedin.com/in/julien-billardon-185476158/",
         github: "https://github.com/Ju-stASimpleName",
-        picture: "assets/test polaroid.jpg",
+        picture: "assets/photos/data/Julien.jpeg",
         deco: "assets/logos/logoPHP.png",
         crew: "data"
     },
