@@ -100,10 +100,14 @@ nav a {
 
 /* body */
 body {
-  min-height: 100vh;
+  min-height: 100%;
   background-image: url(assets/fond-photo-filtre-recadré.jpg);
   background-size: cover;
 }
+
+
+
+
 
 #polaroids {
   background-color: var(--color-fond);
@@ -263,6 +267,10 @@ h2 {
 }
 
 @media screen and (max-width: 825px) {
+  #polaroids {
+    border-radius: 20px ;
+  }
+
   .menu-burger {
     display: flex;
     margin: 2% 5% 0 0;
@@ -316,10 +324,13 @@ h2 {
 }
 
 p {
+
+
   margin-top: 10%;
   margin-bottom: 1%;
   margin-left: 5%;
   margin-right: 5%;
+
   font-family: inherit;
   font-size: 24px;
   font-style: italic;
@@ -348,6 +359,6 @@ footer p {
 footer {
   display: flex;
   justify-content: flex-end;
-  height: 2rem;
+  height: 0.5%;
   margin: 1rem 5%;
 }
