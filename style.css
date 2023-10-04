@@ -1,6 +1,6 @@
 /* Variable couleur */
 :root {
-  --color-fond: rgba(219, 108, 108, 0.95);
+  --color-fond: #DD7271;
   --color-button: rgba(181.89, 62.9, 62.9, 0.95);
   --color-polaroid: #fff9f4;
   --color-border: white;
@@ -10,6 +10,14 @@
   --font-family:Arial, Helvetica, sans-serif;
   --font-family-pola: Kite One, Helvetica, sans-serif;
 }
+
+#deco {
+  width: 20%;
+  border: 2px solid blue;
+}
+
+
+
 
 /* document complet */
 * {
@@ -25,8 +33,7 @@
 
 .logo {
   margin: 2% 0 0 5%;
-  height: auto;
-  width: clamp(120px, 30%, 300px);
+  width: clamp(200px, 30%, 300px);
 }
 
 nav {
@@ -63,6 +70,7 @@ nav a {
   font-family: var(--font-family);
   color: rgb(255, 255, 255);
   font-size: clamp(19px, 1vw, 28px);
+
 }
 
 .scotch {
@@ -80,8 +88,8 @@ nav a {
 }
 
 .Crew-bleu {
-  background-color: #dd7271;
-  border-bottom: 3px solid #dd7271;
+  background-color: var(--color-fond);
+  border-bottom: 3px solid var(--color-fond);
 }
 
 .Crew-data,
@@ -89,10 +97,6 @@ nav a {
   border-bottom: 2px solid var(--color-border);
 }
 
-.Crew-data:hover,
-.Crew-Yellow:hover {
-  box-shadow: 0px 6px 6px rgba(53, 26, 26, 0.541) inset;
-}
 
 /* body */
 body {
@@ -192,9 +196,9 @@ h2 {
   margin-bottom: -2%;
 }
 
-  .deco {
-    padding: 20px;
-  }
+.deco {
+  padding: 20px;
+}
 
 /* animation Flip */
 
@@ -243,7 +247,7 @@ h2 {
 /* Animation des polaroids*/
 
 .polaroid:hover {
-  animation: animpola ease-in-out 0.18s 4 alternate;
+  animation: animpola ease-in-out 0.18s 5 alternate;
   transform-origin: center -25px;
 }
 
@@ -258,20 +262,33 @@ h2 {
   }
 }
 
-/* farid menu-burger */
+/* menu-burger */
+
+
 .menu-burger {
   display: none;
-  position: absolute;
-  top: 25px;
-  right: 50px;
-  width: 35px;
+  width: clamp(2rem, 5rem, 6rem)
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 825px) {
   .menu-burger {
-    display: block;
-    position: absolute;
+    display: flex;
+    margin:2% 5% 0 0 ;
   }
+
+  .photo-header{
+    display:flex;
+    justify-content: space-between ;
+    
+  }
+
+  .Crew-data {
+    margin: 0% 0% 0% 3%;
+  }
+
+.scotch
+{ visibility: hidden;}
+
 
   .Crew-data.mobile-menu {
     margin-right: 0;
@@ -339,4 +356,3 @@ footer {
   height: 2rem;
   margin: 1rem 5%;
 }
-
