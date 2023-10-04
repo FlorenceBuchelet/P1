@@ -59,8 +59,8 @@ const students = [
     {
         name: "Marie Saillard",
         quote: "«&nbsp;Ce qui ne nous tue pas nous rend plus fort.&nbsp;»",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
+        linkedin: "https://www.linkedin.com/in/marie-saillard-014276106/",
+        github: "https://github.com/Marie-Sail",
         picture: "assets/photos/blue/Marie.jpeg",
         deco: "assets/logos/logoGit.png",
         crew: "blue"
@@ -77,12 +77,12 @@ const students = [
 
     /*crew yellow*/
     {
-        name: "Imbrasse Romain",
+        name: "Romain Imbrasse",
         quote: "«&nbsp;Rien n'est sérieux en ce bas monde que le rire.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/romain-imbrasse-9480ab1ba/",
         github: "https://github.com/Romlion",
         picture: "assets/photos/yellow/Romain.jpeg",
-        deco: "assets/logos/logoNumpy.png",
+        deco: "assets/logos/logoCli.png",
         crew: "yellow"
     },
     {
@@ -91,7 +91,7 @@ const students = [
         linkedin: "https://www.linkedin.com/in/pierre-adrien-gouillart",
         github: "https://github.com/pagouillart",
         picture: "assets/photos/yellow/Pierre-Adrien.jpeg",
-        deco: "assets/logos/logoPHP.png",
+        deco: "assets/logos/logoGit.png",
         crew: "yellow"
     },
     {
@@ -100,16 +100,16 @@ const students = [
         linkedin: "https://www.linkedin.com/in/lucasmerino10/",
         github: "https://github.com/LucasMerino10",
         picture: "assets/photos/yellow/Lucas.jpeg",
-        deco: "assets/logos/logoPython.png",
+        deco: "assets/logos/SQL.png",
         crew: "yellow"
     },
     {
         name: "Cyril Daburon",
         quote: "«&nbsp;Je comprends ici ce qu'on appelle gloire : le droit d'aimer sans mesure.&nbsp;»",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
-        picture:"assets/photos/yellow/cyril.jpeg",
-        deco: "assets/logos/SQL.png",
+        linkedin: "https://www.linkedin.com/in/cyril-daburon",
+        github: "https://github.com/Cyrildab",
+        picture: "assets/photos/yellow/cyril.jpeg",
+        deco: "assets/logos/logoNode.png",
         crew: "yellow"
     },
     {
@@ -136,29 +136,29 @@ const students = [
         linkedin: "https://www.linkedin.com/in/sebastien-samyn",
         github: "https://github.com/",
         picture: "assets/photos/yellow/Sebastien.jpeg",
-        deco: "assets/logos/htm-logo.png",
+        deco: "assets/logos/react-logo.png",
         crew: "yellow"
     },
     {
         name: "Rayane Moussaoui",
         quote: "«&nbsp;C'est pas faux.&nbsp;»",
-        linkedin: "#",
+        linkedin: "http://www.linkedin.com/",
         github: "https://github.com/Rayane0823",
         picture: "assets/photos/yellow/Rayan.jpeg",
-        deco: "assets/logos/Logo-JS.png",
+        deco: "assets/logos/logosHtmlCss.png",
         crew: "yellow"
     },
     {
         name: "Matthieu Thierry",
         quote: " La connaissance est le pouvoir :)",
-        linkedin: "#",
+        linkedin: "http://www.linkedin.com/",
         github: "https://github.com/ItsMatDev",
-        picture:"assets/photos/yellow/Mathieu.jpeg",
+        picture: "assets/photos/yellow/Mathieu.jpeg",
         deco: "assets/logos/Logo-JS.png",
         crew: "yellow"
     },
-  
-     /*crew Data*/
+
+    /*crew Data*/
 
     {
         name: "Caroline Rouvillain",
@@ -180,7 +180,7 @@ const students = [
     },
     {
         name: "Julien Billardon",
-        quote: "«&nbsp;Nous n'arrêtons pas de jouer parce que nous vieillissons, mais nous vieillissons parce que nous arrêtons de jouer.&nbsp;»",
+        quote: "«&nbsp;Nous ne nous arrêtons pas de jouer parce que nous vieillissons, mais nous vieillissons parce que nous nous arrêtons de jouer.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/julien-billardon-185476158/",
         github: "https://github.com/Ju-stASimpleName",
         picture: "assets/photos/data/Julien.jpeg",
@@ -190,7 +190,7 @@ const students = [
     {
         name: "Félix Depret",
         quote: "«&nbsp;Que peut le bœuf face à un lion ensanglanté.&nbsp;»",
-        linkedin: "http://www.linkedin.com/",
+        linkedin: "https://www.linkedin.com/in/f%C3%A9lix-depret-96612a17a/",
         github: "https://github.com/",
         picture: "assets/photos/data/Felix.jpeg",
         deco: "assets/logos/logoPython.png",
@@ -208,8 +208,8 @@ const students = [
     {
         name: "Dorothée Catry",
         quote: "«&nbsp;J'adore la data, les chips et les petits chats.&nbsp;»",
-        linkedin: "http://www.linkedin.com/",
-        github: "https://github.com/",
+        linkedin: "https://www.linkedin.com/in/doroth%C3%A9e-catry-3a451a138/",
+        github: "https://github.com/DoroChan/Dorothee_C_PEP8",
         picture: "assets/photos/data/Dorothée.jpeg",
         deco: "assets/logos/SQL.png",
         crew: "data"
@@ -284,8 +284,9 @@ function createCards(picture, name, quote, github, linkedin, decoration) {
     const linkedinLink = document.createElement("a");
     linkedinLink.href = linkedin;
     linkedinLink.classList.add("linkedin");
+    linkedinLink.setAttribute("target", "_blank");
     const linkedinLogo = document.createElement("img");
-    linkedinLogo.src = "assets/logo-linkedin.avif";
+    linkedinLogo.src = "assets/logo-linkedin.png";
     linkedinLogo.alt = "Logo LinkedIn";
     linkedinLogo.classList.add("verso");
     linkedinLink.appendChild(linkedinLogo);
@@ -295,6 +296,7 @@ function createCards(picture, name, quote, github, linkedin, decoration) {
     const gitHubLink = document.createElement("a");
     gitHubLink.href = github;
     gitHubLink.classList.add("github");
+    gitHubLink.setAttribute("target", "_blank");
     const gitHubLogo = document.createElement("img");
     gitHubLogo.src = "assets/logo-github.png";
     gitHubLogo.alt = "Logo GitHub";
@@ -313,7 +315,7 @@ function createCards(picture, name, quote, github, linkedin, decoration) {
 
 
 
-// appeler la function
+// filtres
 
 
 const changeTitle = document.querySelector("h1");
@@ -341,6 +343,15 @@ function removeCards() {
 }
 
 
+// refresh logo
+const logoWild = document.querySelector(".logo");
+
+logoWild.addEventListener('click', function () {
+    location.reload();
+});
+
+
+// appeler la fonction
 
 const clickBlue = document.querySelector(".Crew-bleu");
 clickBlue.addEventListener('click', function () {
@@ -461,3 +472,4 @@ cBleu.addEventListener('click', () => {
     cData.style.borderBottom = "2px solid var(--color-border) ";
 
 })
+

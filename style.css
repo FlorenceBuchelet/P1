@@ -9,13 +9,14 @@
 
   --font-family: Arial, Helvetica, sans-serif;
   --font-family-pola: Kite One, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
 
-#deco {
+/* #deco {
   width: 20%;
   border: 2px solid blue;
 }
-
+ */
 
 
 
@@ -100,8 +101,8 @@ nav a {
 
 /* body */
 body {
-  min-height: 100%;
-  background-image: url(assets/fond-photo-filtre-recadré.jpg);
+  min-height: 100vh;
+  background-image: url(assets/fond-photo.png);
   background-size: cover;
 }
 
@@ -180,6 +181,8 @@ h2 {
   padding-bottom: 7%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: brush script mt, cursive;
+  font-size: 2.1rem;
 }
 
 .photo {
@@ -187,7 +190,7 @@ h2 {
   object-fit: cover;
   width: 100%;
   max-height: 100%;
-  margin-bottom: -2%;
+  margin-bottom: -5%;
 }
 
 .deco {
@@ -228,11 +231,9 @@ h2 {
   width: 100%;
   height: 115%;
   backface-visibility: hidden;
-}
-
-.frontPolaroid {
   color: black;
 }
+
 
 .backPolaroid {
   background-color: white;
@@ -268,7 +269,7 @@ h2 {
 
 @media screen and (max-width: 825px) {
   #polaroids {
-    border-radius: 20px ;
+    border-radius: 20px;
   }
 
   .menu-burger {
@@ -318,33 +319,36 @@ h2 {
 .verso {
   width: 25%;
   height: auto;
-  display: inline;
   margin: 8%;
-
+  position: absolute;
 }
 
-p {
 
+.linkedin img {
+  bottom: 0rem;
+  right: 50%;
+}
 
-  margin-top: 10%;
+.github img {
+  bottom: 0rem;
+  left: 50%;
+}
+
+.backPolaroid p {
   margin-bottom: 1%;
   margin-left: 5%;
   margin-right: 5%;
-
-  font-family: inherit;
-  font-size: 24px;
-  font-style: italic;
-
+  font-family: brush script mt, cursive;
+  font-size: 1.85rem;
+  transform: rotate(-3deg);
 }
+
 
 h3 {
   padding: 3% 0%;
   margin: 5%;
   border: double 8px var(--color-button);
-  font-family: inherit;
-  font-size: xx-large;
-
-
+  font-size: 1.7rem;
 }
 
 /* footer */
