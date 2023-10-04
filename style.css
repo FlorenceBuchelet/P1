@@ -1,6 +1,6 @@
 /* Variable couleur */
 :root {
-  --color-fond: rgba(219, 108, 108, 0.95);
+  --color-fond: #DD7271;
   --color-button: rgba(181.89, 62.9, 62.9, 0.95);
   --color-polaroid: #fff9f4;
   --color-border: white;
@@ -33,8 +33,7 @@
 
 .logo {
   margin: 2% 0 0 5%;
-  height: auto;
-  width: clamp(120px, 30%, 300px);
+  width: clamp(200px, 30%, 300px);
 }
 
 nav {
@@ -71,6 +70,7 @@ nav a {
   font-family: var(--font-family);
   color: rgb(255, 255, 255);
   font-size: clamp(19px, 1vw, 28px);
+
 }
 
 .scotch {
@@ -88,8 +88,8 @@ nav a {
 }
 
 .Crew-bleu {
-  background-color: #dd7271;
-  border-bottom: 3px solid #dd7271;
+  background-color: var(--color-fond);
+  border-bottom: 3px solid var(--color-fond);
 }
 
 .Crew-data,
@@ -97,10 +97,6 @@ nav a {
   border-bottom: 2px solid var(--color-border);
 }
 
-.Crew-data:hover,
-.Crew-Yellow:hover {
-  box-shadow: 0px 6px 6px rgba(53, 26, 26, 0.541) inset;
-}
 
 /* body */
 body {
@@ -268,7 +264,9 @@ h2 {
   }
 }
 
-/* farid menu-burger */
+/* menu-burger */
+
+
 .menu-burger {
   display: none;
   width: clamp(2rem, 5rem, 6rem)
@@ -278,22 +276,20 @@ h2 {
   .menu-burger {
     display: flex;
     margin:2% 5% 0 0 ;
-    
-  
   }
 
   .photo-header{
     display:flex;
     justify-content: space-between ;
-    gap:10%;
-
+    
   }
 
   .Crew-data {
     margin: 0% 0% 0% 3%;
   }
 
-
+.scotch
+{ visibility: hidden;}
 
 
   .Crew-data.mobile-menu {
