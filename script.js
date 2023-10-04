@@ -355,24 +355,56 @@ flipOnClick.forEach(function (unflip) {
 
 // animation navbar
 
-const menuBurger= document.querySelector(".menu-burger")
-const navbar1 = document.querySelector(".Crew-data")
+const menuBurger = document.querySelector(".menu-burger")
+const cData = document.querySelector(".Crew-data")
+const cYellow = document.querySelector(".Crew-Yellow")
+const cBleu = document.querySelector(".Crew-bleu")
+
+const cadrePolaroids = document.querySelector("#polaroids")
 
 menuBurger.addEventListener('click', () => {
-    navbar1.classList.toggle('mobile-menu');
+    cData.classList.toggle('mobile-menu');
+    cYellow.classList.toggle('mobile-menu');
+    cBleu.classList.toggle('mobile-menu');
+    /*cadrePolaroids.style.border-radius = 0px;*/
 })
 
-const navbar2 = document.querySelector(".Crew-Yellow")
+/*const  cDataHover = document.querySelector(".Crew-data:hover")*/
 
-menuBurger.addEventListener('click', () => {
-    navbar2.classList.toggle('mobile-menu');
+cData.addEventListener('click', () => {
+  cData.style.backgroundColor="var(--color-fond)";
+  cData.style.borderBottom = "3px solid var(--color-fond)"
+
+  cYellow.style.backgroundColor="var(--color-button)";
+  cYellow.style.borderBottom = "3px solid var(--color-border)"
+
+  cBleu.style.backgroundColor="var(--color-button)";
+  cBleu.style.borderBottom = "2px solid var(--color-border) ";
+
 })
 
-const navbar3 = document.querySelector(".Crew-bleu")
 
-menuBurger.addEventListener('click', () => {
-    navbar3.classList.toggle('mobile-menu');
-})
-
-
-
+cYellow.addEventListener('click', () => {
+    cYellow.style.backgroundColor="var(--color-fond)";
+    cYellow.style.borderBottom = "3px solid var(--color-fond)"
+    
+    cData.style.backgroundColor="var(--color-button)";
+    cData.style.borderBottom = "3px solid var(--color-border)"
+  
+    cBleu.style.backgroundColor="var(--color-button)";
+    cBleu.style.borderBottom = "2px solid var(--color-border) ";
+  
+  })
+  
+  cBleu.addEventListener('click', () => {
+    cBleu.style.backgroundColor="var(--color-fond)";
+    cBleu.style.borderBottom = "3px solid var(--color-fond)"
+  
+    cYellow.style.backgroundColor="var(--color-button)";
+    cYellow.style.borderBottom = "3px solid var(--color-border)"
+  
+    cData.style.backgroundColor="var(--color-button)";
+    cData.style.borderBottom = "2px solid var(--color-border) ";
+  
+  })
+  
