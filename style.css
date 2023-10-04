@@ -307,7 +307,10 @@ h2 {
 
 p {
  margin-top: 20%;
- margin-bottom: 40%;
+ margin-bottom: 1%;
+ font-family:inherit;
+ font-size: 24px;
+ font-style: italic;
 
 }
 
@@ -315,7 +318,10 @@ h3 {
   padding: 3% 0%;
   margin: 5%;
   border: double 8px var(--color-button);
-  font-family: fantasy;
+  font-family:inherit;
+  font-size: xx-large;
+
+
 }
 
 /* footer */
