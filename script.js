@@ -415,20 +415,20 @@ const menuBurger = document.querySelector(".menu-burger")
 const cData = document.querySelector(".Crew-data")
 const cYellow = document.querySelector(".Crew-Yellow")
 const cBleu = document.querySelector(".Crew-bleu")
+const cadrePolaroids = document.querySelector("#polaroids")
 
 
 menuBurger.addEventListener('click', () => {
     cData.classList.toggle('mobile-menu');
     cYellow.classList.toggle('mobile-menu');
     cBleu.classList.toggle('mobile-menu');
-    /*cadrePolaroids.style.border-radius = 0px;*/
+    cadrePolaroids.style.borderRadius = "20px 0px 20px 20px";
 
 })
 
 
 // navbar onclick
 
-const cadrePolaroids = document.querySelector("#polaroids")
 
 cData.addEventListener('click', () => {
   cData.style.backgroundColor="var(--color-fond)";

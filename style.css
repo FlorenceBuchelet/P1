@@ -7,7 +7,7 @@
   --color-texte: black;
   --border-polaroid: black;
 
-  --font-family:Arial, Helvetica, sans-serif;
+  --font-family: Arial, Helvetica, sans-serif;
   --font-family-pola: Kite One, Helvetica, sans-serif;
 }
 
@@ -100,10 +100,14 @@ nav a {
 
 /* body */
 body {
-  min-height: 100vh;
+  min-height: 100%;
   background-image: url(assets/fond-photo-filtre-recadré.jpg);
   background-size: cover;
 }
+
+
+
+
 
 #polaroids {
   background-color: var(--color-fond);
@@ -263,23 +267,28 @@ h2 {
 }
 
 @media screen and (max-width: 825px) {
-  .menu-burger {
-    display: flex;
-    margin:2% 5% 0 0 ;
+  #polaroids {
+    border-radius: 20px ;
   }
 
-  .photo-header{
-    display:flex;
-    justify-content: space-between ;
-    
+  .menu-burger {
+    display: flex;
+    margin: 2% 5% 0 0;
+  }
+
+  .photo-header {
+    display: flex;
+    justify-content: space-between;
+
   }
 
   .Crew-data {
     margin: 0% 0% 0% 3%;
   }
 
-.scotch
-{ visibility: hidden;}
+  .scotch {
+    visibility: hidden;
+  }
 
 
   .Crew-data.mobile-menu {
@@ -309,17 +318,17 @@ h2 {
 .verso {
   width: 25%;
   height: auto;
-  display:inline;
+  display: inline;
   margin: 8%;
- 
+
 }
 
 p {
- margin-top: 20%;
- margin-bottom: 1%;
- font-family:inherit;
- font-size: 24px;
- font-style: italic;
+
+  margin-bottom: 1%;
+  font-family: inherit;
+  font-size: 24px;
+  font-style: italic;
 
 }
 
@@ -327,7 +336,7 @@ h3 {
   padding: 3% 0%;
   margin: 5%;
   border: double 8px var(--color-button);
-  font-family:inherit;
+  font-family: inherit;
   font-size: xx-large;
 
 
@@ -345,6 +354,6 @@ footer p {
 footer {
   display: flex;
   justify-content: flex-end;
-  height: 2rem;
+  height: 0.5%;
   margin: 1rem 5%;
 }
