@@ -7,7 +7,7 @@
   --color-texte: black;
   --border-polaroid: black;
 
-  --font-family: FilsonPro-Medium, Arial, Helvetica, sans-serif;
+  --font-family:Arial, Helvetica, sans-serif;
   --font-family-pola: Kite One, Helvetica, sans-serif;
 }
 
@@ -138,8 +138,6 @@ ul {
 }
 
 .card {
-  /*   border: 3px solid red; */
-
   text-align: center;
   max-width: 316px;
   max-height: auto;
@@ -319,17 +317,28 @@ h2 {
 .verso {
   width: 25%;
   height: auto;
+  display:inline;
+  margin: 8%;
+ 
 }
 
 p {
-  margin-top: 8%;
-  margin-bottom: 10%;
+ margin-top: 20%;
+ margin-bottom: 1%;
+ font-family:inherit;
+ font-size: 24px;
+ font-style: italic;
+
 }
 
 h3 {
   padding: 3% 0%;
   margin: 5%;
   border: double 8px var(--color-button);
+  font-family:inherit;
+  font-size: xx-large;
+
+
 }
 
 /* footer */
