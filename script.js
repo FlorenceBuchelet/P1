@@ -3,7 +3,7 @@
 const students = [
     {
         name: "Thomas Nigon",
-        quote: "« If it bleeds, we can kill it. »",
+        quote: "«&nbsp;If it bleeds, we can kill it.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/thomas-nigon/",
         github: "https://github.com/Thomas-Nigon",
         picture: "assets/photos/blue/thomas.jpeg",
@@ -12,7 +12,7 @@ const students = [
     },
     {
         name: "Hélène Rampelberg",
-        quote: "« Don't worry, be happy! »",
+        quote: "«&nbsp;Don't worry, be happy!&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/HeleneRamp",
         picture: "assets/photos/blue/helene.jpeg",
@@ -21,7 +21,7 @@ const students = [
     },
     {
         name: "Vincent Rousseaux",
-        quote: "« Mistakes are a fact of life. It is the response to the error that counts. »",
+        quote: "«&nbsp;Mistakes are a fact of life. It is the response to the error that counts.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/vincent-rousseaux-500211172/",
         github: "https://github.com/VincentRssx",
         picture: "assets/photos/blue/vincent.jpeg",
@@ -30,7 +30,7 @@ const students = [
     },
     {
         name: "Robin Fantino",
-        quote: "« Viens, on va prendre une frite. »",
+        quote: "«&nbsp;Viens, on va prendre une frite.&nbsp;»",
         linkedin: "http://www.linkedin.com/in/robin-fantino-b351b625b",
         github: "https://github.com/NemoOnTheNet",
         picture: "assets/photos/blue/Robin.jpeg",
@@ -39,7 +39,7 @@ const students = [
     },
     {
         name: "Frédéric Ticon",
-        quote: "« Qui part à fond finit comme un con. »",
+        quote: "«&nbsp;Qui part à fond finit comme un con.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/TICONFRED27",
         picture: "assets/photos/blue/Fred.jpeg",
@@ -48,7 +48,8 @@ const students = [
     },
     {
         name: "Farid Zian",
-        quote: "« Le bonheur, ce n'est pas de faire ce que l'on veut, mais de vouloir ce que l'on fait. »",
+
+        quote: "«&nbsp;Le bonheur, ce n'est pas de faire ce que l'on veut, mais de vouloir ce que l'on fait.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/farid-zian-a81a2848/",
         github: "https://github.com/Farid-Zian",
         picture: "assets/photos/blue/Farid.jpeg",
@@ -57,7 +58,7 @@ const students = [
     },
     {
         name: "Marie Saillard",
-        quote: "« Ce qui ne nous tue pas nous rend plus fort. »",
+        quote: "«&nbsp;Ce qui ne nous tue pas nous rend plus fort.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture: "assets/photos/blue/Marie.jpeg",
@@ -66,7 +67,7 @@ const students = [
     },
     {
         name: "Florence Buchelet",
-        quote: "« If you want to lift yourself up, lift up someone else. »",
+        quote: "«&nbsp;If you want to lift yourself up, lift up someone else.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/florence-buchelet-928a7a228/",
         github: "https://github.com/FlorenceBuchelet",
         picture: "assets/photos/blue/Florence.jpeg",
@@ -77,7 +78,7 @@ const students = [
     /*crew yellow*/
     {
         name: "Imbrasse Romain",
-        quote: "« Rien n'est sérieux en ce bas monde que le rire. »",
+        quote: "«&nbsp;Rien n'est sérieux en ce bas monde que le rire.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/romain-imbrasse-9480ab1ba/",
         github: "https://github.com/Romlion",
         picture: "assets/photos/yellow/Romain.jpeg",
@@ -86,7 +87,7 @@ const students = [
     },
     {
         name: "Pierre Adrien Gouillart",
-        quote: "« Mundi placet et spiritus minima. »",
+        quote: "«&nbsp;Mundi placet et spiritus minima.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/pierre-adrien-gouillart",
         github: "https://github.com/pagouillart",
         picture: "assets/photos/yellow/Pierre-Adrien.jpeg",
@@ -95,7 +96,7 @@ const students = [
     },
     {
         name: "Lucas Merino",
-        quote: "« I prefer not to speak. »",
+        quote: "«&nbsp;I prefer not to speak.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/lucasmerino10/",
         github: "https://github.com/LucasMerino10",
         picture: "assets/photos/yellow/Lucas.jpeg",
@@ -104,7 +105,7 @@ const students = [
     },
     {
         name: "Cyril Daburon",
-        quote: "« Je comprends ici ce qu’on appelle gloire : le droit d’aimer sans mesure. »",
+        quote: "«&nbsp;Je comprends ici ce qu'on appelle gloire : le droit d'aimer sans mesure.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture:"assets/photos/yellow/cyril.jpeg",
@@ -113,7 +114,7 @@ const students = [
     },
     {
         name: "Xavier Lobez",
-        quote: "« Papy fait de la résistance ! »",
+        quote: "«&nbsp;Papy fait de la résistance&nbsp;!&nbsp;»",
         linkedin: "https://www.linkedin.com/in/xavier-lobez-892501227/",
         github: "https://github.com/Bravax",
         picture: "assets/photos/yellow/Xavier.jpeg",
@@ -122,7 +123,7 @@ const students = [
     },
     {
         name: "Julien Ozarowski",
-        quote: "« Le gras c’est la vie... et encore plus quand c’est du fromage fondu. »",
+        quote: "«&nbsp;Le gras c'est la vie... et encore plus quand c'est du fromage fondu.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/julien-ozarowski",
         github: "https://github.com/JulienOza",
         picture: "assets/test polaroid.jpg" /*"assets/photos/yellow/Julien.jpeg"*/,
@@ -131,7 +132,7 @@ const students = [
     },
     {
         name: "Sébastien Samyn",
-        quote: "« Je suis adroit de la main gauche et je suis gauche de la main droite. »",
+        quote: "«&nbsp;Je suis adroit de la main gauche et je suis gauche de la main droite.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/sebastien-samyn",
         github: "https://github.com/",
         picture: "assets/photos/yellow/Sebastien.jpeg",
@@ -140,7 +141,7 @@ const students = [
     },
     {
         name: "Rayane Moussaoui",
-        quote: "« C’est pas faux. »",
+        quote: "«&nbsp;C'est pas faux.&nbsp;»",
         linkedin: "#",
         github: "https://github.com/Rayane0823",
         picture: "assets/photos/yellow/Rayan.jpeg",
@@ -156,13 +157,12 @@ const students = [
         deco: "assets/logos/Logo-JS.png",
         crew: "yellow"
     },
-
-
   
      /*crew Data*/
+
     {
         name: "Caroline Rouvillain",
-        quote: "« Nous savons bien que notre action n’est qu’une goutte d’eau dans l’océan, mais sans notre action cette goute manquerait. »",
+        quote: "«&nbsp;Nous savons bien que notre action n'est qu'une goutte d'eau dans l'océan, mais sans notre action cette goute manquerait.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/caroline-rouvillain-65b7a3160/",
         github: "https://github.com/",
         picture: "assets/photos/data/Caroline.jpeg",
@@ -171,7 +171,7 @@ const students = [
     },
     {
         name: "Gwenaëlle Deschamps",
-        quote: "« Quand on vise la médiocrité, c’est elle qui vous atteint. »",
+        quote: "«&nbsp;Quand on vise la médiocrité, c'est elle qui vous atteint.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/gwena%C3%ABlle-deschamps-419772138/",
         github: "https://github.com/",
         picture: "assets/photos/data/Gwenaelle.jpeg",
@@ -180,7 +180,7 @@ const students = [
     },
     {
         name: "Julien Billardon",
-        quote: "« Nous ne nous arrêtons pas de jouer parce que nous vieillissons, mais nous vieillissons parce que nous nous arrêtons de jouer. »",
+        quote: "«&nbsp;Nous n'arrêtons pas de jouer parce que nous vieillissons, mais nous vieillissons parce que nous arrêtons de jouer.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/julien-billardon-185476158/",
         github: "https://github.com/Ju-stASimpleName",
         picture: "assets/photos/data/Julien.jpeg",
@@ -189,7 +189,7 @@ const students = [
     },
     {
         name: "Félix Depret",
-        quote: "« Que peut le bœuf face à un lion ensanglanté. »",
+        quote: "«&nbsp;Que peut le bœuf face à un lion ensanglanté.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture: "assets/photos/data/Felix.jpeg",
@@ -198,7 +198,7 @@ const students = [
     },
     {
         name: "Grégoire Lozach",
-        quote: "« La vie serait une comédie bien agréable, si l'on n'y jouait pas un rôle. »",
+        quote: "«&nbsp;La vie serait une comédie bien agréable, si l'on n'y jouait pas un rôle.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/gr%C3%A9goire-lozac-h-1861b985/",
         github: "https://github.com/",
         picture: "assets/photos/data/Gregoire.jpeg",
@@ -207,7 +207,7 @@ const students = [
     },
     {
         name: "Dorothée Catry",
-        quote: "« J'adore la data, les chips et les petits chats. »",
+        quote: "«&nbsp;J'adore la data, les chips et les petits chats.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
         picture: "assets/photos/data/Dorothée.jpeg",
@@ -225,13 +225,8 @@ const students = [
 
 function createCards(picture, name, quote, github, linkedin, decoration) {
 
-    // remove ancienne liste
 
-    //créer ul
-
-    /*     const sectionPolaroids = document.querySelector("#polaroids");
-        const unorderedList = document.createElement("ul");
-        sectionPolaroids.appendChild(unorderedList);  */
+    //touch ul
 
     const unorderedList = document.querySelector("ul");
 
@@ -431,39 +426,38 @@ menuBurger.addEventListener('click', () => {
 const cadrePolaroids = document.querySelector("#polaroids")
 
 cData.addEventListener('click', () => {
-  cData.style.backgroundColor="var(--color-fond)";
-  cData.style.borderBottom = "3px solid var(--color-fond)"
+    cData.style.backgroundColor = "var(--color-fond)";
+    cData.style.borderBottom = "3px solid var(--color-fond)"
 
-  cYellow.style.backgroundColor="var(--color-button)";
-  cYellow.style.borderBottom = "3px solid var(--color-border)"
+    cYellow.style.backgroundColor = "var(--color-button)";
+    cYellow.style.borderBottom = "3px solid var(--color-border)"
 
-  cBleu.style.backgroundColor="var(--color-button)";
-  cBleu.style.borderBottom = "2px solid var(--color-border) ";
+    cBleu.style.backgroundColor = "var(--color-button)";
+    cBleu.style.borderBottom = "2px solid var(--color-border) ";
 
 })
 
 
 cYellow.addEventListener('click', () => {
-    cYellow.style.backgroundColor="var(--color-fond)";
+    cYellow.style.backgroundColor = "var(--color-fond)";
     cYellow.style.borderBottom = "3px solid var(--color-fond)"
-    
-    cData.style.backgroundColor="var(--color-button)";
+
+    cData.style.backgroundColor = "var(--color-button)";
     cData.style.borderBottom = "3px solid var(--color-border)"
-  
-    cBleu.style.backgroundColor="var(--color-button)";
+
+    cBleu.style.backgroundColor = "var(--color-button)";
     cBleu.style.borderBottom = "2px solid var(--color-border) ";
-  
-  })
-  
-  cBleu.addEventListener('click', () => {
-    cBleu.style.backgroundColor="var(--color-fond)";
+
+})
+
+cBleu.addEventListener('click', () => {
+    cBleu.style.backgroundColor = "var(--color-fond)";
     cBleu.style.borderBottom = "3px solid var(--color-fond)"
-  
-    cYellow.style.backgroundColor="var(--color-button)";
+
+    cYellow.style.backgroundColor = "var(--color-button)";
     cYellow.style.borderBottom = "3px solid var(--color-border)"
-  
-    cData.style.backgroundColor="var(--color-button)";
+
+    cData.style.backgroundColor = "var(--color-button)";
     cData.style.borderBottom = "2px solid var(--color-border) ";
-  
-  })
-  
+
+})
