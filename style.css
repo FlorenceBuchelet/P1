@@ -106,6 +106,10 @@ body {
   background-size: cover;
 }
 
+
+
+
+
 #polaroids {
   background-color: var(--color-fond);
   margin: 0% 5% 4% 5%;
@@ -266,6 +270,10 @@ h2 {
 }
 
 @media screen and (max-width: 825px) {
+  #polaroids {
+    border-radius: 20px;
+  }
+
   .menu-burger {
     display: flex;
     margin: 2% 5% 0 0;
@@ -317,6 +325,7 @@ h2 {
   position: absolute;
 }
 
+
 .linkedin img {
   bottom: 0rem;
   right: 50%;
@@ -334,6 +343,15 @@ h2 {
   font-family: brush script mt, cursive;
   font-size: 1.85rem;
   transform: rotate(-3deg);
+}
+
+.backPolaroid p {
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  font-family: inherit;
+  font-size: 24px;
+  font-style: italic;
 }
 
 h3 {
@@ -356,6 +374,6 @@ footer p {
 footer {
   display: flex;
   justify-content: flex-end;
-  height: 2rem;
+  height: 0.5%;
   margin: 1rem 5%;
 }
