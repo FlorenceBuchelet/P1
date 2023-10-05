@@ -16,7 +16,7 @@ const students = [
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/HeleneRamp",
         picture: "assets/photos/blue/helene.jpeg",
-        deco: "assets/logos/logosHtmlCss.png",
+        deco: "assets/logos/logosHtmlCSS.png",
         crew: "blue"
     },
     {
@@ -127,7 +127,7 @@ const students = [
         quote: "«&nbsp;Le gras c'est la vie... et encore plus quand c'est du fromage fondu.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/julien-ozarowski",
         github: "https://github.com/JulienOza",
-        picture: "assets/photos/yellow/Julien.jpeg",
+        picture: "assets/photos/yellow/Julien.jpg",
         deco: "assets/logos/css-logo.png",
         crew: "yellow"
     },
@@ -146,12 +146,12 @@ const students = [
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/Rayane0823",
         picture: "assets/photos/yellow/Rayan.jpeg",
-        deco: "assets/logos/logoCli.png",
+        deco: "assets/logos/logosHtmlCSS.png",
         crew: "yellow"
     },
     {
         name: "Matthieu Thierry",
-        quote: " La connaissance est le pouvoir :)",
+        quote: "«&nbsp;La connaissance est le pouvoir.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/ItsMatDev",
         picture: "assets/photos/yellow/Mathieu.jpeg",
@@ -429,7 +429,7 @@ menuBurger.addEventListener('click', () => {
     cData.classList.toggle('mobile-menu');
     cYellow.classList.toggle('mobile-menu');
     cBleu.classList.toggle('mobile-menu');
-    
+
 })
 
 

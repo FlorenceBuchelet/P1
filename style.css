@@ -163,7 +163,6 @@ h2 {
   padding-bottom: 7%;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  font-family: brush script mt, cursive;
   font-size: 1.5rem;
 }
 
@@ -326,7 +325,6 @@ h2 {
   margin-bottom: 1%;
   margin-left: 5%;
   margin-right: 5%;
-  font-family: brush script mt, cursive;
   font-size: 1.4rem;
   transform: rotate(-3deg);
 }
