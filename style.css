@@ -12,14 +12,6 @@
   overflow-x: hidden;
 }
 
-/* #deco {
-  width: 20%;
-  border: 2px solid blue;
-}
- */
-
-
-
 /* document complet */
 * {
   list-style: none;
@@ -80,22 +72,12 @@ nav a {
 }
 
 /*color background red button*/
-.Crew-data {
-  background: var(--color-button);
-}
-
-.Crew-Yellow {
-  background: var(--color-button);
-}
-
-.Crew-bleu {
-  background-color: var(--color-fond);
-  border-bottom: 3px solid var(--color-fond);
-}
 
 .Crew-data,
-.Crew-Yellow {
+.Crew-Yellow,
+.Crew-bleu {
   border-bottom: 2px solid var(--color-border);
+  background: var(--color-button);
 }
 
 
@@ -182,7 +164,7 @@ h2 {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   font-family: brush script mt, cursive;
-  font-size: 2.1rem;
+  font-size: 1.5rem;
 }
 
 .photo {
@@ -339,7 +321,7 @@ h2 {
   margin-left: 5%;
   margin-right: 5%;
   font-family: brush script mt, cursive;
-  font-size: 1.85rem;
+  font-size: 1.4rem;
   transform: rotate(-3deg);
 }
 
