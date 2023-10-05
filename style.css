@@ -363,6 +363,6 @@ footer p {
 footer {
   display: flex;
   justify-content: flex-end;
-  height: 0.5%;
+  height: 2rem;
   margin: 1rem 5%;
 }

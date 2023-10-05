@@ -105,6 +105,8 @@ const students = [
     },
     {
         name: "Cyril Daburon",
+
+
         quote: "«&nbsp;Je comprends ici ce qu'on appelle gloire : le droit d'aimer sans mesure.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/cyril-daburon",
         github: "https://github.com/Cyrildab",
@@ -428,7 +430,7 @@ menuBurger.addEventListener('click', () => {
     cData.classList.toggle('mobile-menu');
     cYellow.classList.toggle('mobile-menu');
     cBleu.classList.toggle('mobile-menu');
-    cadrePolaroids.style.borderRadius = "20px 0px 20px 20px";
+    /*cadrePolaroids.style.borderRadius = "20px 0px 20px 20px";*/
 
 })
 
@@ -472,4 +474,25 @@ cBleu.addEventListener('click', () => {
     cData.style.borderBottom = "2px solid var(--color-border) ";
 
 })
+
+
+/*conteur de click*/
+
+let numberClick = 0
+
+function incrementClick() {
+    numberClick++;
+    burgerClick();
+}
+
+
+function burgerClick() {
+    if (numberClick % 2 === 0) {
+        cadrePolaroids.style.borderRadius = "20px";
+    }
+    else {
+        cadrePolaroids.style.borderRadius = "20px 0px 20px 20px";
+    }
+}
+
 
