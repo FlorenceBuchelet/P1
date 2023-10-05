@@ -430,8 +430,7 @@ menuBurger.addEventListener('click', () => {
     cData.classList.toggle('mobile-menu');
     cYellow.classList.toggle('mobile-menu');
     cBleu.classList.toggle('mobile-menu');
-    /*cadrePolaroids.style.borderRadius = "20px 0px 20px 20px";*/
-
+    
 })
 
 
