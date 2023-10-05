@@ -48,7 +48,6 @@ const students = [
     },
     {
         name: "Farid Zian",
-
         quote: "«&nbsp;Le bonheur, ce n'est pas de faire ce que l'on veut, mais de vouloir ce que l'on fait.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/farid-zian-a81a2848/",
         github: "https://github.com/Farid-Zian",
@@ -128,7 +127,7 @@ const students = [
         quote: "«&nbsp;Le gras c'est la vie... et encore plus quand c'est du fromage fondu.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/julien-ozarowski",
         github: "https://github.com/JulienOza",
-        picture: "assets/test polaroid.jpg" /*"assets/photos/yellow/Julien.jpeg"*/,
+        picture: "assets/photos/yellow/Julien.jpeg",
         deco: "assets/logos/css-logo.png",
         crew: "yellow"
     },
@@ -147,7 +146,7 @@ const students = [
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/Rayane0823",
         picture: "assets/photos/yellow/Rayan.jpeg",
-        deco: "assets/logos/logosHtmlCss.png",
+        deco: "assets/logos/logoCli.png",
         crew: "yellow"
     },
     {
