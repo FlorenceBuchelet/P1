@@ -107,7 +107,7 @@ const students = [
         quote: "« Je comprends ici ce qu’on appelle gloire : le droit d’aimer sans mesure. »",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/",
-        picture:"assets/photos/yellow/cyril.jpeg",
+        picture: "assets/photos/yellow/cyril.jpeg",
         deco: "assets/logos/SQL.png",
         crew: "yellow"
     },
@@ -152,14 +152,14 @@ const students = [
         quote: " La connaissance est le pouvoir :)",
         linkedin: "#",
         github: "https://github.com/ItsMatDev",
-        picture:"assets/photos/yellow/Mathieu.jpeg",
+        picture: "assets/photos/yellow/Mathieu.jpeg",
         deco: "assets/logos/Logo-JS.png",
         crew: "yellow"
     },
 
 
-  
-     /*crew Data*/
+
+    /*crew Data*/
     {
         name: "Caroline Rouvillain",
         quote: "« Nous savons bien que notre action n’est qu’une goutte d’eau dans l’océan, mais sans notre action cette goute manquerait. »",
@@ -422,7 +422,7 @@ menuBurger.addEventListener('click', () => {
     cData.classList.toggle('mobile-menu');
     cYellow.classList.toggle('mobile-menu');
     cBleu.classList.toggle('mobile-menu');
-    cadrePolaroids.style.borderRadius = "20px 0px 20px 20px";
+    /*cadrePolaroids.style.borderRadius = "20px 0px 20px 20px";*/
 
 })
 
@@ -431,39 +431,59 @@ menuBurger.addEventListener('click', () => {
 
 
 cData.addEventListener('click', () => {
-  cData.style.backgroundColor="var(--color-fond)";
-  cData.style.borderBottom = "3px solid var(--color-fond)"
+    cData.style.backgroundColor = "var(--color-fond)";
+    cData.style.borderBottom = "3px solid var(--color-fond)"
 
-  cYellow.style.backgroundColor="var(--color-button)";
-  cYellow.style.borderBottom = "3px solid var(--color-border)"
+    cYellow.style.backgroundColor = "var(--color-button)";
+    cYellow.style.borderBottom = "3px solid var(--color-border)"
 
-  cBleu.style.backgroundColor="var(--color-button)";
-  cBleu.style.borderBottom = "2px solid var(--color-border) ";
+    cBleu.style.backgroundColor = "var(--color-button)";
+    cBleu.style.borderBottom = "2px solid var(--color-border) ";
 
 })
 
 
 cYellow.addEventListener('click', () => {
-    cYellow.style.backgroundColor="var(--color-fond)";
+    cYellow.style.backgroundColor = "var(--color-fond)";
     cYellow.style.borderBottom = "3px solid var(--color-fond)"
-    
-    cData.style.backgroundColor="var(--color-button)";
+
+    cData.style.backgroundColor = "var(--color-button)";
     cData.style.borderBottom = "3px solid var(--color-border)"
-  
-    cBleu.style.backgroundColor="var(--color-button)";
+
+    cBleu.style.backgroundColor = "var(--color-button)";
     cBleu.style.borderBottom = "2px solid var(--color-border) ";
-  
-  })
-  
-  cBleu.addEventListener('click', () => {
-    cBleu.style.backgroundColor="var(--color-fond)";
+
+})
+
+cBleu.addEventListener('click', () => {
+    cBleu.style.backgroundColor = "var(--color-fond)";
     cBleu.style.borderBottom = "3px solid var(--color-fond)"
-  
-    cYellow.style.backgroundColor="var(--color-button)";
+
+    cYellow.style.backgroundColor = "var(--color-button)";
     cYellow.style.borderBottom = "3px solid var(--color-border)"
-  
-    cData.style.backgroundColor="var(--color-button)";
+
+    cData.style.backgroundColor = "var(--color-button)";
     cData.style.borderBottom = "2px solid var(--color-border) ";
-  
-  })
-  
+
+
+})
+
+/*conteur de click*/
+
+let numberClick = 0
+
+function incrementClick() {
+    numberClick++;
+    burgerClick();
+}
+
+
+function burgerClick() {
+    if (numberClick % 2 === 0) {
+        cadrePolaroids.style.borderRadius = "20px";
+    }
+    else {
+        cadrePolaroids.style.borderRadius = "20px 0px 20px 20px";
+    }
+}
+
