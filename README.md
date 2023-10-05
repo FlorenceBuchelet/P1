@@ -1,6 +1,6 @@
 # WILD CODE SCHOOL - Web Developer Septembre 2023
 
-Welcome to the first school project of our team: a Whos's who for the whole promotion. We had three weeks to create a one page website.
+Welcome to the first school project of our team: a Whos's who for the whole promotion. We had two weeks to create a one page website.
 
 [Click here to check out the deployed project](https://florencebuchelet.github.io/P1/)
 
