@@ -39,7 +39,7 @@ const students = [
     },
     {
         name: "Frédéric Ticon",
-        quote: "«&nbsp;Qui part à fond finit comme un con.&nbsp;»",
+        quote: "«&nbsp;Qui part à fond finit comme un ***.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/TICONFRED27",
         picture: "assets/photos/blue/Fred.jpeg",
@@ -476,7 +476,7 @@ cBleu.addEventListener('click', () => {
 })
 
 
-/*conteur de click*/
+/*compteur de click*/
 
 let numberClick = 0
 
