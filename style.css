@@ -158,8 +158,8 @@ ul li:nth-child(8) {
 
 
 h2 {
-  padding-top: 7%;
-  padding-bottom: 8%;
+  padding-top: 7.6%;
+  padding-bottom: 7.6%;
   background-color: var(--color-polaroid);
   box-shadow: 0px 0px 0px 1px var(--color-fond),
   0 0px 20px 0 var(--color-shadow);
@@ -216,9 +216,6 @@ h2 {
   height: 115%;
   backface-visibility: hidden;
   color: black;
-  box-shadow: 0px 0px 0px 1px var(--color-fond),
-  0 0px 20px 0 var(--color-shadow);
-
 }
 
 
