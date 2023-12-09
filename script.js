@@ -328,7 +328,7 @@ const onlyData = students.filter((whichCrew) => whichCrew.crew === "data");
 // liste promo de base
 
 for (let i = 0; i < students.length; i++) {
-  changeTitle.innerHTML = "Wild Code School - Lille, Septembre 2023";
+  changeTitle.innerHTML = "Wild Code School - Lille, September 2023";
   createCards(
     students[i].picture,
     students[i].name,
@@ -362,7 +362,7 @@ const clickBlue = document.querySelector(".Crew-bleu");
 clickBlue.addEventListener("click", function () {
   removeCards();
   for (let i = 0; i < onlyBlue.length; i++) {
-    changeTitle.innerHTML = "Web Developer - Lille, Septembre 2023";
+    changeTitle.innerHTML = "Web Developer - Lille, September 2023";
     createCards(
       onlyBlue[i].picture,
       onlyBlue[i].name,
@@ -379,7 +379,7 @@ const clickYellow = document.querySelector(".Crew-Yellow");
 clickYellow.addEventListener("click", function () {
   removeCards();
   for (let i = 0; i < onlyYellow.length; i++) {
-    changeTitle.innerHTML = "Web Developer - Lille, Septembre 2023";
+    changeTitle.innerHTML = "Web Developer - Lille, September 2023";
     createCards(
       onlyYellow[i].picture,
       onlyYellow[i].name,
@@ -396,7 +396,7 @@ const clickData = document.querySelector(".Crew-data");
 clickData.addEventListener("click", function () {
   removeCards();
   for (let i = 0; i < onlyData.length; i++) {
-    changeTitle.innerHTML = "Data Analyst - Lille, Septembre 2023";
+    changeTitle.innerHTML = "Data Analyst - Lille, September 2023";
     createCards(
       onlyData[i].picture,
       onlyData[i].name,
