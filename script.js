@@ -6,7 +6,7 @@ const students = [
         quote: "«&nbsp;If it bleeds, we can kill it.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/thomas-nigon/",
         github: "https://github.com/Thomas-Nigon",
-        picture: "assets/photos/blue/thomas.jpeg",
+        picture: "assets/photos/blue/thomas.jpg",
         deco: "assets/logos/Agile.png",
         crew: "blue"
     },
@@ -15,7 +15,7 @@ const students = [
         quote: "«&nbsp;Don't worry, be happy!&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/HeleneRamp",
-        picture: "assets/photos/blue/helene.jpeg",
+        picture: "assets/photos/blue/helene.jpg",
         deco: "assets/logos/logosHtmlCSS.png",
         crew: "blue"
     },
@@ -24,7 +24,7 @@ const students = [
         quote: "«&nbsp;Mistakes are a fact of life. It is the response to the error that counts.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/vincent-rousseaux-500211172/",
         github: "https://github.com/VincentRssx",
-        picture: "assets/photos/blue/vincent.jpeg",
+        picture: "assets/photos/blue/vincent.jpg",
         deco: "assets/logos/logoCli.png",
         crew: "blue"
     },
@@ -33,7 +33,7 @@ const students = [
         quote: "«&nbsp;Viens, on va prendre une frite.&nbsp;»",
         linkedin: "http://www.linkedin.com/in/robin-fantino-b351b625b",
         github: "https://github.com/NemoOnTheNet",
-        picture: "assets/photos/blue/Robin.jpeg",
+        picture: "assets/photos/blue/Robin.jpg",
         deco: "assets/logos/Logo-JS.png",
         crew: "blue"
     },
@@ -42,7 +42,7 @@ const students = [
         quote: "«&nbsp;Qui part à fond finit comme un ***.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/TICONFRED27",
-        picture: "assets/photos/blue/Fred.jpeg",
+        picture: "assets/photos/blue/Fred.jpg",
         deco: "assets/logos/react-logo.png",
         crew: "blue"
     },
@@ -51,7 +51,7 @@ const students = [
         quote: "«&nbsp;Le bonheur, ce n'est pas de faire ce que l'on veut, mais de vouloir ce que l'on fait.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/farid-zian-a81a2848/",
         github: "https://github.com/Farid-Zian",
-        picture: "assets/photos/blue/Farid.jpeg",
+        picture: "assets/photos/blue/Farid.jpg",
         deco: "assets/logos/SQL.png",
         crew: "blue"
     },
@@ -60,7 +60,7 @@ const students = [
         quote: "«&nbsp;Ce qui ne nous tue pas nous rend plus fort.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/marie-saillard-014276106/",
         github: "https://github.com/Marie-Sail",
-        picture: "assets/photos/blue/Marie.jpeg",
+        picture: "assets/photos/blue/Marie.jpg",
         deco: "assets/logos/logoGit.png",
         crew: "blue"
     },
@@ -69,7 +69,7 @@ const students = [
         quote: "«&nbsp;If you want to lift yourself up, lift up someone else.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/florence-buchelet-928a7a228/",
         github: "https://github.com/FlorenceBuchelet",
-        picture: "assets/photos/blue/Florence.jpeg",
+        picture: "assets/photos/blue/Florence.jpg",
         deco: "assets/logos/logoNode.png",
         crew: "blue"
     },
@@ -80,7 +80,7 @@ const students = [
         quote: "«&nbsp;Rien n'est sérieux en ce bas monde que le rire.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/romain-imbrasse-9480ab1ba/",
         github: "https://github.com/Romlion",
-        picture: "assets/photos/yellow/Romain.jpeg",
+        picture: "assets/photos/yellow/Romain.jpg",
         deco: "assets/logos/logoCli.png",
         crew: "yellow"
     },
@@ -89,7 +89,7 @@ const students = [
         quote: "«&nbsp;Mundi placet et spiritus minima.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/pierre-adrien-gouillart",
         github: "https://github.com/pagouillart",
-        picture: "assets/photos/yellow/Pierre-Adrien.jpeg",
+        picture: "assets/photos/yellow/Pierre-Adrien.jpg",
         deco: "assets/logos/logoGit.png",
         crew: "yellow"
     },
@@ -98,18 +98,16 @@ const students = [
         quote: "«&nbsp;I prefer not to speak.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/lucasmerino10/",
         github: "https://github.com/LucasMerino10",
-        picture: "assets/photos/yellow/Lucas.jpeg",
+        picture: "assets/photos/yellow/Lucas.jpg",
         deco: "assets/logos/SQL.png",
         crew: "yellow"
     },
     {
         name: "Cyril Daburon",
-
-
         quote: "«&nbsp;Je comprends ici ce qu'on appelle gloire : le droit d'aimer sans mesure.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/cyril-daburon",
         github: "https://github.com/Cyrildab",
-        picture: "assets/photos/yellow/cyril.jpeg",
+        picture: "assets/photos/yellow/cyril.jpg",
         deco: "assets/logos/logoNode.png",
         crew: "yellow"
     },
@@ -118,7 +116,7 @@ const students = [
         quote: "«&nbsp;Papy fait de la résistance&nbsp;!&nbsp;»",
         linkedin: "https://www.linkedin.com/in/xavier-lobez-892501227/",
         github: "https://github.com/Bravax",
-        picture: "assets/photos/yellow/Xavier.jpeg",
+        picture: "assets/photos/yellow/Xavier.jpg",
         deco: "assets/logos/Agile.png",
         crew: "yellow"
     },
@@ -136,7 +134,7 @@ const students = [
         quote: "«&nbsp;Je suis adroit de la main gauche et je suis gauche de la main droite.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/sebastien-samyn",
         github: "https://github.com/",
-        picture: "assets/photos/yellow/Sebastien.jpeg",
+        picture: "assets/photos/yellow/Sebastien.jpg",
         deco: "assets/logos/react-logo.png",
         crew: "yellow"
     },
@@ -145,7 +143,7 @@ const students = [
         quote: "«&nbsp;C'est pas faux.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/Rayane0823",
-        picture: "assets/photos/yellow/Rayan.jpeg",
+        picture: "assets/photos/yellow/Rayan.jpg",
         deco: "assets/logos/logosHtmlCSS.png",
         crew: "yellow"
     },
@@ -154,7 +152,7 @@ const students = [
         quote: "«&nbsp;La connaissance est le pouvoir.&nbsp;»",
         linkedin: "http://www.linkedin.com/",
         github: "https://github.com/ItsMatDev",
-        picture: "assets/photos/yellow/Mathieu.jpeg",
+        picture: "assets/photos/yellow/Mathieu.jpg",
         deco: "assets/logos/Logo-JS.png",
         crew: "yellow"
     },
@@ -166,7 +164,7 @@ const students = [
         quote: "«&nbsp;Nous savons bien que notre action n'est qu'une goutte d'eau dans l'océan, mais sans notre action cette goute manquerait.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/caroline-rouvillain-65b7a3160/",
         github: "https://github.com/",
-        picture: "assets/photos/data/Caroline.jpeg",
+        picture: "assets/photos/data/Caroline.jpg",
         deco: "assets/logos/Agile.png",
         crew: "data"
     },
@@ -175,7 +173,7 @@ const students = [
         quote: "«&nbsp;Quand on vise la médiocrité, c'est elle qui vous atteint.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/gwena%C3%ABlle-deschamps-419772138/",
         github: "https://github.com/",
-        picture: "assets/photos/data/Gwenaelle.jpeg",
+        picture: "assets/photos/data/Gwenaelle.jpg",
         deco: "assets/logos/logoNumpy.png",
         crew: "data"
     },
@@ -184,8 +182,8 @@ const students = [
         quote: "«&nbsp;Nous ne nous arrêtons pas de jouer parce que nous vieillissons, mais nous vieillissons parce que nous nous arrêtons de jouer.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/julien-billardon-185476158/",
         github: "https://github.com/Ju-stASimpleName",
-        picture: "assets/photos/data/Julien.jpeg",
-        deco: "assets/logos/logoPHP.png",
+        picture: "assets/photos/data/Julien.jpg",
+        deco: "assets/logos/power-bi.png",
         crew: "data"
     },
     {
@@ -193,7 +191,7 @@ const students = [
         quote: "«&nbsp;Que peut le bœuf face à un lion ensanglanté.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/f%C3%A9lix-depret-96612a17a/",
         github: "https://github.com/",
-        picture: "assets/photos/data/Felix.jpeg",
+        picture: "assets/photos/data/Felix.jpg",
         deco: "assets/logos/logoPython.png",
         crew: "data"
     },
@@ -202,8 +200,8 @@ const students = [
         quote: "«&nbsp;La vie serait une comédie bien agréable, si l'on n'y jouait pas un rôle.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/gr%C3%A9goire-lozac-h-1861b985/",
         github: "https://github.com/",
-        picture: "assets/photos/data/Gregoire.jpeg",
-        deco: "assets/logos/logoSymfony.png",
+        picture: "assets/photos/data/Gregoire.jpg",
+        deco: "assets/logos/mysql.png",
         crew: "data"
     },
     {
@@ -211,7 +209,7 @@ const students = [
         quote: "«&nbsp;J'adore la data, les chips et les petits chats.&nbsp;»",
         linkedin: "https://www.linkedin.com/in/doroth%C3%A9e-catry-3a451a138/",
         github: "https://github.com/DoroChan/Dorothee_C_PEP8",
-        picture: "assets/photos/data/Dorothée.jpeg",
+        picture: "assets/photos/data/Dorothée.jpg",
         deco: "assets/logos/SQL.png",
         crew: "data"
     }
