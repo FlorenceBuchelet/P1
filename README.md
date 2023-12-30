@@ -17,7 +17,7 @@ Welcome to the first school project of our team: a Whos's who for the whole prom
 
 We're proud to have built a platform so our fellow students could connect and find important informations about each others. We decided on linking everyone's LinkedIn and GitHub accounts as they are the best representation of a dev's work, as junior as they might be. We also added a little quote each of them chose to represent the diversity of our personalities.
 
-We hope this project puts a smile to your faces.
+We hope this project brings a smile to your faces.
 
 ## History
 
