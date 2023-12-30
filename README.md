@@ -1,4 +1,4 @@
-# WILD CODE SCHOOL - Web Developer Septembre 2023
+# WILD CODE SCHOOL - Web Developer September 2023
 
 Welcome to the first school project of our team: a Whos's who for the whole promotion. We had two weeks to create a one page website.
 
@@ -25,7 +25,7 @@ We hope this project puts a smile to your faces.
 
 ![Book of Wilders v1](https://github.com/FlorenceBuchelet/P1/assets/144147299/70b910af-8fdd-439f-ac83-90245739cc7d)
 
-12/2023 - Relooked the whole thing to fit the school's brand new design guidelines.
+12/2023 - Relooked the whole thing to fit the school's brand new design guidelines. I'm now maintaining this project on my own.
 
 ![Book of Wilders v2](https://github.com/FlorenceBuchelet/P1/assets/144147299/9751a9b1-e018-4588-9e77-9ebd434cee6a)
 
