@@ -15,7 +15,17 @@ Welcome to the first school project of our team: a Whos's who for the whole prom
 
 ---
 
-We're proud to have built a platform so our fellow students could connect and find important informations about each others. We decided on linkig everyone's LinkedIn and GitHub accounts as they are the best representation of a dev's work, as junior as they might be. We also added a little quote each of them chose to represent the diversity of our personalities.
+We're proud to have built a platform so our fellow students could connect and find important informations about each others. We decided on linking everyone's LinkedIn and GitHub accounts as they are the best representation of a dev's work, as junior as they might be. We also added a little quote each of them chose to represent the diversity of our personalities.
 
 We hope this project puts a smile to your faces.
+
+## History
+
+09/2023 - The first version of this project fitted the school's website pink design.
+
+![Book of Wilders v1](https://github.com/FlorenceBuchelet/P1/assets/144147299/70b910af-8fdd-439f-ac83-90245739cc7d)
+
+12/2023 - Relooked the whole thing to fit the school's brand new design guidelines.
+
+![Book of Wilders v2](https://github.com/FlorenceBuchelet/P1/assets/144147299/9751a9b1-e018-4588-9e77-9ebd434cee6a)
 
